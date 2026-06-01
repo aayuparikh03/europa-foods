@@ -141,11 +141,6 @@ export default function AboutPage() {
                 <p className="font-label-caps text-label-caps text-champagne-gold uppercase tracking-widest mt-1">Operations Head & Partner</p>
               </div>
             </div>
-
-
-
-
-
           </div>
         </section>
       </main>
