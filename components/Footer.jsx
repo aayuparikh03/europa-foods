@@ -94,8 +94,8 @@ export default function Footer() {
             Contact Info
           </h4>
           <ul className="space-y-4">
-            <li className="text-on-tertiary-container">info@europafoods.com</li>
-            <li className="text-on-tertiary-container">+1 234 567 8900</li>
+            <li className="text-on-tertiary-container">europafoodingredientsllp@gmail.com</li>
+            <li className="text-on-tertiary-container">+91 70412 26666</li>
             <li>
               <Link
                 className="text-on-tertiary-container hover:text-stark-white transition-colors hover:translate-x-1 transition-transform duration-200 inline-block hover:text-champagne-gold"

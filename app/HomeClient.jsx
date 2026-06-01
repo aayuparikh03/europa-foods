@@ -18,10 +18,10 @@ export default function HomeClient() {
               TRUSTED BY BUYERS ACROSS 15+ COUNTRIES
             </div>
             <h1 className="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg mb-6 text-stark-white leading-tight">
-              Premium Dehydrated Foods &amp; Spices — Sourced From Nature, Delivered to the World
+              Premium Dehydrated Foods &amp; Spices - Sourced From Nature, Delivered to the World
             </h1>
             <p className="font-body-lg text-body-lg text-surface-variant mb-10 max-w-2xl">
-              30+ years of expertise. Zero chemicals. International certifications. Built for global trade.
+              12+ years of expertise. Zero chemicals. International certifications. Built for global trade.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -44,16 +44,12 @@ export default function HomeClient() {
           <div className="max-w-container-max mx-auto px-margin-desktop">
             <div className="bg-deep-navy/90 backdrop-blur-md border border-outline-variant/20 rounded p-8 flex justify-between items-center shadow-2xl">
               <div className="text-center px-8 border-r border-outline-variant/20 last:border-0 flex-1">
-                <div className="font-stat-value text-stat-value text-champagne-gold mb-2">30+</div>
+                <div className="font-stat-value text-stat-value text-champagne-gold mb-2">10+</div>
                 <div className="font-label-caps text-label-caps text-surface-variant uppercase tracking-widest">Years Experience</div>
               </div>
               <div className="text-center px-8 border-r border-outline-variant/20 last:border-0 flex-1">
                 <div className="font-stat-value text-stat-value text-champagne-gold mb-2">15+</div>
                 <div className="font-label-caps text-label-caps text-surface-variant uppercase tracking-widest">Countries</div>
-              </div>
-              <div className="text-center px-8 border-r border-outline-variant/20 last:border-0 flex-1">
-                <div className="font-stat-value text-stat-value text-champagne-gold mb-2">100%</div>
-                <div className="font-label-caps text-label-caps text-surface-variant uppercase tracking-widest">Chemical Free</div>
               </div>
             </div>
           </div>
@@ -74,13 +70,6 @@ export default function HomeClient() {
               <div>
                 <h2 className="font-headline-xl text-headline-xl text-deep-navy mb-8">12 Years of Excellence</h2>
                 <ul className="space-y-6 mb-10">
-                  <li className="flex items-start">
-                    <span className="material-symbols-outlined text-champagne-gold mr-4 text-2xl" style={{ fontVariationSettings: "'FILL' 1" }}>check_circle</span>
-                    <div>
-                      <h3 className="font-body-lg text-body-lg font-semibold text-deep-navy">100% Pesticide Free</h3>
-                      <p className="text-on-surface-variant mt-1">Sourced directly from certified organic farms.</p>
-                    </div>
-                  </li>
                   <li className="flex items-start">
                     <span className="material-symbols-outlined text-champagne-gold mr-4 text-2xl" style={{ fontVariationSettings: "'FILL' 1" }}>check_circle</span>
                     <div>
@@ -211,7 +200,7 @@ export default function HomeClient() {
                 <div className="inline-block px-4 py-1 mb-6 border border-champagne-gold/30 rounded font-label-caps text-label-caps text-champagne-gold tracking-widest uppercase">
                   Our Promise
                 </div>
-                <h2 className="font-headline-xl text-headline-xl mb-8">Quality Is Not a Feature — It&apos;s Our Foundation</h2>
+                <h2 className="font-headline-xl text-headline-xl mb-8">Quality Is Not a Feature - It&apos;s Our Foundation</h2>
                 <p className="font-body-lg text-body-lg text-surface-variant mb-10">We adhere to the strictest global standards to ensure every batch meets your exact specifications.</p>
               </div>
               <div className="space-y-8">
@@ -239,37 +228,14 @@ export default function HomeClient() {
         </section>
       </RevealSection>
 
-      {/* CERTIFICATIONS MARQUEE */}
-      <RevealSection>
-        <section className="py-12 bg-warm-cream border-b border-outline-variant/10 overflow-hidden">
-          <div className="animate-marquee flex items-center whitespace-nowrap">
-            <div className="flex items-center justify-around w-1/2 px-4 space-x-16">
-              <span className="font-headline-md text-deep-navy/40 font-bold tracking-widest text-2xl uppercase">FDA Approved</span>
-              <span className="font-headline-md text-deep-navy/40 font-bold tracking-widest text-2xl uppercase">FSSAI Certified</span>
-              <span className="font-headline-md text-deep-navy/40 font-bold tracking-widest text-2xl uppercase">APEDA</span>
-              <span className="font-headline-md text-deep-navy/40 font-bold tracking-widest text-2xl uppercase">Spices Board</span>
-              <span className="font-headline-md text-deep-navy/40 font-bold tracking-widest text-2xl uppercase">IOPEPC</span>
-              <span className="font-headline-md text-deep-navy/40 font-bold tracking-widest text-2xl uppercase">FIEO</span>
-            </div>
-            <div className="flex items-center justify-around w-1/2 px-4 space-x-16">
-              <span className="font-headline-md text-deep-navy/40 font-bold tracking-widest text-2xl uppercase">FDA Approved</span>
-              <span className="font-headline-md text-deep-navy/40 font-bold tracking-widest text-2xl uppercase">FSSAI Certified</span>
-              <span className="font-headline-md text-deep-navy/40 font-bold tracking-widest text-2xl uppercase">APEDA</span>
-              <span className="font-headline-md text-deep-navy/40 font-bold tracking-widest text-2xl uppercase">Spices Board</span>
-              <span className="font-headline-md text-deep-navy/40 font-bold tracking-widest text-2xl uppercase">IOPEPC</span>
-              <span className="font-headline-md text-deep-navy/40 font-bold tracking-widest text-2xl uppercase">FIEO</span>
-            </div>
-          </div>
-        </section>
-      </RevealSection>
-
       {/* GLOBAL FOOTPRINT */}
       <RevealSection>
         <section className="py-section-gap-mobile md:py-section-gap bg-surface relative overflow-hidden">
           <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop relative z-10 text-center">
             <h2 className="font-headline-xl text-headline-xl text-deep-navy mb-4">Trusted by Companies and Entrepreneurs Throughout the World</h2>
-            <p className="font-body-lg text-body-lg text-surface-variant mb-16 max-w-3xl mx-auto">Delivering premium quality dehydrated foods and spices to global markets with unwavering reliability.</p>
-            <div className="relative w-full max-w-5xl mx-auto aspect-[2/1] bg-deep-navy/5 rounded-xl border border-outline-variant/20 overflow-hidden shadow-inner">
+            <p className="font-body-lg text-body-lg text-gray-600 mb-16 max-w-3xl mx-auto">
+              Delivering premium quality dehydrated foods and spices to global markets with unwavering reliability.
+            </p>            <div className="relative w-full max-w-5xl mx-auto aspect-[2/1] bg-deep-navy/5 rounded-xl border border-outline-variant/20 overflow-hidden shadow-inner">
               <div className="absolute inset-0 opacity-30 bg-no-repeat bg-center bg-contain mix-blend-multiply" style={{ backgroundImage: "url('https://upload.wikimedia.org/wikipedia/commons/8/80/World_map_-_low_resolution.svg')" }}></div>
               <div className="absolute top-[30%] left-[20%] w-3 h-3 bg-champagne-gold rounded-full location-dot"></div>
               <div className="absolute top-[40%] left-[45%] w-3 h-3 bg-champagne-gold rounded-full location-dot" style={{ animationDelay: "0.5s" }}></div>

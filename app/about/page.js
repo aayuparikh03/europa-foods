@@ -28,7 +28,7 @@ export default function AboutPage() {
             <div className="relative z-10 w-full md:w-1/2 h-full flex flex-col justify-center px-8 md:px-16">
               <span className="font-label-caps text-label-caps text-champagne-gold uppercase tracking-widest mb-6 block">Our Heritage</span>
               <h1 className="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-stark-white mb-6 leading-tight">
-                30 Years of Uncompromising Quality.
+                12 Years of Uncompromising Quality.
               </h1>
               <p className="font-body-lg text-body-lg text-surface-container-high max-w-md">
                 Pioneering the art of vegetable dehydration. We blend European agricultural heritage with cutting-edge technology to deliver ingredients of exceptional purity.
@@ -65,7 +65,7 @@ export default function AboutPage() {
                 {/* Timeline Item */}
                 <div className="relative">
                   <div className="absolute -left-[53px] top-2 w-2 h-2 bg-champagne-gold rounded-none hidden md:block"></div>
-                  <h3 className="font-stat-value text-stat-value text-champagne-gold mb-2">1994</h3>
+                  <h3 className="font-stat-value text-stat-value text-champagne-gold mb-2">2014</h3>
                   <h4 className="font-headline-md text-headline-md text-deep-navy mb-3">The Foundation</h4>
                   <p className="font-body-md text-body-md text-on-surface-variant max-w-xl">
                     Europa Foods is established in the heart of the European agricultural belt, focusing initially on premium air-dried onions and garlic for regional markets.
@@ -74,7 +74,7 @@ export default function AboutPage() {
                 {/* Timeline Item */}
                 <div className="relative">
                   <div className="absolute -left-[53px] top-2 w-2 h-2 bg-champagne-gold rounded-none hidden md:block"></div>
-                  <h3 className="font-stat-value text-stat-value text-champagne-gold mb-2">2005</h3>
+                  <h3 className="font-stat-value text-stat-value text-champagne-gold mb-2">2018</h3>
                   <h4 className="font-headline-md text-headline-md text-deep-navy mb-3">Technological Leap</h4>
                   <p className="font-body-md text-body-md text-on-surface-variant max-w-xl">
                     Implementation of advanced closed-loop dehydration systems, significantly increasing yield while preserving superior flavor profiles and essential nutrients.
@@ -83,7 +83,7 @@ export default function AboutPage() {
                 {/* Timeline Item */}
                 <div className="relative">
                   <div className="absolute -left-[53px] top-2 w-2 h-2 bg-champagne-gold rounded-none hidden md:block"></div>
-                  <h3 className="font-stat-value text-stat-value text-champagne-gold mb-2">2018</h3>
+                  <h3 className="font-stat-value text-stat-value text-champagne-gold mb-2">2020</h3>
                   <h4 className="font-headline-md text-headline-md text-deep-navy mb-3">Global Expansion</h4>
                   <p className="font-body-md text-body-md text-on-surface-variant max-w-xl">
                     Reaching 50+ countries. Establishing stringent, multi-tiered quality control protocols that set a new benchmark in the B2B ingredient sector.
@@ -102,14 +102,14 @@ export default function AboutPage() {
             <div className="group relative overflow-hidden bg-warm-cream border border-outline-variant/20 p-4">
               <div className="aspect-[3/4] w-full overflow-hidden mb-6 bg-surface-container">
                 <img
-                  alt="Mr. Deepak Joshi Portrait"
+                  alt="Mr. Mihir Gajera Portrait"
                   className="w-full h-full object-cover grayscale opacity-90 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
-                  src="/images/Mr. Deepak Joshi.png"
+                  src="/images/Mr. MihirGajera.jpeg"
                 />
               </div>
               <div className="text-center">
-                <h3 className="font-headline-md text-headline-md text-deep-navy">Mr. Deepak Joshi</h3>
-                <p className="font-label-caps text-label-caps text-champagne-gold uppercase tracking-widest mt-1">Founder & Managing Partner</p>
+                <h3 className="font-headline-md text-headline-md text-deep-navy">Mr. Mihir Gajera</h3>
+                <p className="font-label-caps text-label-caps text-champagne-gold uppercase tracking-widest mt-1">Partner & Founder</p>
               </div>
             </div>
             {/* Profile Card */}
@@ -123,23 +123,29 @@ export default function AboutPage() {
               </div>
               <div className="text-center">
                 <h3 className="font-headline-md text-headline-md text-deep-navy">Mr. Soham Koradiya</h3>
-                <p className="font-label-caps text-label-caps text-champagne-gold uppercase tracking-widest mt-1">Managing Partner & COO</p>
+                <p className="font-label-caps text-label-caps text-champagne-gold uppercase tracking-widest mt-1">Co Founder & Investor</p>
               </div>
             </div>
+            {/* Profile Card */}
             {/* Profile Card */}
             <div className="group relative overflow-hidden bg-warm-cream border border-outline-variant/20 p-4">
               <div className="aspect-[3/4] w-full overflow-hidden mb-6 bg-surface-container">
                 <img
-                  alt="Mr. Mihir Gajera Portrait"
+                  alt="Mr. Deepak Joshi Portrait"
                   className="w-full h-full object-cover grayscale opacity-90 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
-                  src="/images/Mr. MihirGajera.jpeg"
+                  src="/images/Mr. Deepak Joshi.png"
                 />
               </div>
               <div className="text-center">
-                <h3 className="font-headline-md text-headline-md text-deep-navy">Mr. Mihir Gajera</h3>
-                <p className="font-label-caps text-label-caps text-champagne-gold uppercase tracking-widest mt-1">Partner & Head of QA</p>
+                <h3 className="font-headline-md text-headline-md text-deep-navy">Mr. Deepak Joshi</h3>
+                <p className="font-label-caps text-label-caps text-champagne-gold uppercase tracking-widest mt-1">Operations Head & Partner</p>
               </div>
             </div>
+
+
+
+
+
           </div>
         </section>
       </main>

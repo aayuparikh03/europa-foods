@@ -41,7 +41,7 @@ export default function QualityPage() {
               {/* Certificate 1 */}
               <div className="bg-warm-cream p-8 border border-outline-variant/20 flex flex-col items-center text-center group hover:border-champagne-gold/50 transition-colors">
                 <div className="w-32 h-40 bg-stark-white mb-6 border border-outline-variant/10 shadow-sm relative overflow-hidden">
-                  <img alt="FDA Certificate" className="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBsh0zp2xFuc7On6--Uy0QnLn5wR6J02chlnW2xqtMN37d4u-CaUGk8RJCvUJ88EZBo_Zt3MJbZL7ldvh9vDR1L1eqzzW06Qr3q7K-5x9Ef95AB2JWpCoNTfnU-Offs57g6SrA6fN28A9y232_KBwT84gmY2zSr-vHcNZ8sKQDFcbM3ar73G5X4V6ctEajtmCJb245DjJTrPgDBVMuxJoMvVlr9sTkxXb2KyFqovIcyCtF6a-iT3stbG5pDUBeZSLQy_S461hAO478w"/>
+                  <img alt="FDA Certificate" className="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBsh0zp2xFuc7On6--Uy0QnLn5wR6J02chlnW2xqtMN37d4u-CaUGk8RJCvUJ88EZBo_Zt3MJbZL7ldvh9vDR1L1eqzzW06Qr3q7K-5x9Ef95AB2JWpCoNTfnU-Offs57g6SrA6fN28A9y232_KBwT84gmY2zSr-vHcNZ8sKQDFcbM3ar73G5X4V6ctEajtmCJb245DjJTrPgDBVMuxJoMvVlr9sTkxXb2KyFqovIcyCtF6a-iT3stbG5pDUBeZSLQy_S461hAO478w" />
                 </div>
                 <h3 className="font-headline-md text-headline-md text-deep-navy mb-2">FDA Registered</h3>
                 <p className="font-body-md text-body-md text-on-surface-variant">Compliant with United States Food and Drug Administration standards for safe import.</p>
@@ -49,7 +49,7 @@ export default function QualityPage() {
               {/* Certificate 2 */}
               <div className="bg-warm-cream p-8 border border-outline-variant/20 flex flex-col items-center text-center group hover:border-champagne-gold/50 transition-colors">
                 <div className="w-32 h-40 bg-stark-white mb-6 border border-outline-variant/10 shadow-sm relative overflow-hidden">
-                  <img alt="FSSAI Certificate" className="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-SjpA-y0clLrB60C5UCq7wKfnCHDbDa10FT8gUe0EJTw1lf6hsq-tRZB2kiloGpEnNXHuo5LAa-j-DhJzDFLv-Y00CB_XK4dv6BgSyncMTw4XCseTFh94QnVWDRIBsQRNdklTQwrIF3Dmxoct_3Iaz-Iiw8xcG7xD-f9v4_ojUSBPdHSDyO9qBg5L7-CJ2x1Re5aMyHj9KScNS4t3AQyYjiPRnrfN4CgXJrIUmiQGXBUQa2c-8Sm3JcNQrpe42cSE8qgLnQdar_CW"/>
+                  <img alt="FSSAI Certificate" className="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-SjpA-y0clLrB60C5UCq7wKfnCHDbDa10FT8gUe0EJTw1lf6hsq-tRZB2kiloGpEnNXHuo5LAa-j-DhJzDFLv-Y00CB_XK4dv6BgSyncMTw4XCseTFh94QnVWDRIBsQRNdklTQwrIF3Dmxoct_3Iaz-Iiw8xcG7xD-f9v4_ojUSBPdHSDyO9qBg5L7-CJ2x1Re5aMyHj9KScNS4t3AQyYjiPRnrfN4CgXJrIUmiQGXBUQa2c-8Sm3JcNQrpe42cSE8qgLnQdar_CW" />
                 </div>
                 <h3 className="font-headline-md text-headline-md text-deep-navy mb-2">FSSAI Certified</h3>
                 <p className="font-body-md text-body-md text-on-surface-variant">Meeting the highest food safety and standards authority regulations in India.</p>
@@ -57,7 +57,7 @@ export default function QualityPage() {
               {/* Certificate 3 */}
               <div className="bg-warm-cream p-8 border border-outline-variant/20 flex flex-col items-center text-center group hover:border-champagne-gold/50 transition-colors">
                 <div className="w-32 h-40 bg-stark-white mb-6 border border-outline-variant/10 shadow-sm relative overflow-hidden">
-                  <img alt="APEDA Certificate" className="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRMejLJq0ZJKi95QQGHlCk7BpUpndpXgY-Gt92Hxzm4KSbkHOSMYcCWrPe1FQLxS8GQAuByv7OuI1FxM7K-hxk1sNosbdsCqi_MKJq83WkT9yIjCkJVuJNk94CiIDVFjZy92I2d5navDa7Lbe3Luw0TlIDNwjTNQuPl5mYCj3bmtlPskLPlKAoyVG39--GMhcF3nu_cZ_CUk3cKUNPIVqfxd9QI4FXuukDDnRwPr49CvzBH7cuAl_cTfRtqeWq8LDXR79ECK7db1vx"/>
+                  <img alt="APEDA Certificate" className="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRMejLJq0ZJKi95QQGHlCk7BpUpndpXgY-Gt92Hxzm4KSbkHOSMYcCWrPe1FQLxS8GQAuByv7OuI1FxM7K-hxk1sNosbdsCqi_MKJq83WkT9yIjCkJVuJNk94CiIDVFjZy92I2d5navDa7Lbe3Luw0TlIDNwjTNQuPl5mYCj3bmtlPskLPlKAoyVG39--GMhcF3nu_cZ_CUk3cKUNPIVqfxd9QI4FXuukDDnRwPr49CvzBH7cuAl_cTfRtqeWq8LDXR79ECK7db1vx" />
                 </div>
                 <h3 className="font-headline-md text-headline-md text-deep-navy mb-2">APEDA Approved</h3>
                 <p className="font-body-md text-body-md text-on-surface-variant">Authorized by the Agricultural and Processed Food Products Export Development Authority.</p>
@@ -73,9 +73,7 @@ export default function QualityPage() {
             <div className="w-full md:w-1/3 md:sticky md:top-32">
               <h2 className="font-headline-lg text-headline-lg text-deep-navy mb-4">Farm-to-Export Traceability.</h2>
               <p className="font-body-md text-body-md text-on-surface-variant mb-6">Our integrated supply chain management ensures total visibility. Every batch can be traced back to its specific farm of origin, detailing harvesting conditions, lab results, and transit logs.</p>
-              <a className="inline-flex items-center gap-2 font-label-caps text-label-caps text-champagne-gold hover:text-deep-navy transition-colors uppercase tracking-widest" href="#">
-                Download Quality Manual <span className="material-symbols-outlined text-[16px]">download</span>
-              </a>
+
             </div>
             {/* Right Process Steps */}
             <div className="w-full md:w-2/3 space-y-12">

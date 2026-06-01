@@ -85,8 +85,7 @@ export default function ContactPage() {
                     <span className="material-symbols-outlined text-champagne-gold mt-1" style={{ fontVariationSettings: "'FILL' 1" }}>mail</span>
                     <div>
                       <h3 className="font-label-caps text-label-caps text-champagne-gold mb-2">CORPORATE EMAIL</h3>
-                      <a className="font-body-md text-body-md text-stark-white hover:text-champagne-gold transition-colors block" href="mailto:inquiries@europafoods.com">inquiries@europafoods.com</a>
-                      <a className="font-body-md text-body-md text-stark-white hover:text-champagne-gold transition-colors block" href="mailto:sales@europafoods.com">sales@europafoods.com</a>
+                      <a className="font-body-md text-body-md text-stark-white hover:text-champagne-gold transition-colors block" href="mailto:europafoodingredientsllp@gmail.com">europafoodingredientsllp@gmail.com</a>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
