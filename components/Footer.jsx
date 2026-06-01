@@ -110,7 +110,7 @@ export default function Footer() {
             Contact Info
           </h4>
           <ul className="space-y-4">
-            <li className="text-on-tertiary-container"><a href="mailto:europafoodingredientsllp">europafoodingredientsllp@gmail.com</a></li>
+            <li className="text-on-tertiary-container"><a href="mailto:europafoodingredientsllp@gmail.com">europafoodingredientsllp@gmail.com</a></li>
             <li className="text-on-tertiary-container"><a href="tel:+917041226666">+91 70412 26666</a></li>
 
           </ul>
