@@ -23,9 +23,9 @@ export default function AboutPage() {
               alt="Assorted premium dehydrated vegetables and spices"
             />
             {/* Deep Navy Gradient Overlay for legibility and cinematic feel */}
-            <div className="absolute inset-0 bg-gradient-to-r from-deep-navy/90 via-deep-navy/60 to-transparent"></div>
+            <div className="absolute inset-0 bg-deep-navy/70 md:bg-gradient-to-r md:from-deep-navy/90 md:via-deep-navy/60 md:to-transparent"></div>
             {/* Content Alignment (Left Anchor) */}
-            <div className="relative z-10 w-full md:w-1/2 h-full flex flex-col justify-center px-8 md:px-16">
+            <div className="relative z-10 w-full md:w-1/2 h-full flex flex-col justify-center items-center text-center md:items-start md:text-left px-8 md:px-16">
               <span className="font-label-caps text-label-caps text-champagne-gold uppercase tracking-widest mb-6 block">Our Heritage</span>
               <h1 className="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-stark-white mb-6 leading-tight">
                 12 Years of Uncompromising Quality.

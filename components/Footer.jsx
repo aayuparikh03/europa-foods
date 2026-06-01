@@ -66,15 +66,15 @@ export default function Footer() {
             <li>
               <Link
                 className="text-on-tertiary-container hover:text-stark-white transition-colors hover:translate-x-1 transition-transform duration-200 inline-block hover:text-champagne-gold"
-                href="/products"
+                href="/products/dehydrated-onion-garlic"
               >
-                Dehydrated Vegetables
+                Dehydrated Onion &amp; Garlic
               </Link>
             </li>
             <li>
               <Link
                 className="text-on-tertiary-container hover:text-stark-white transition-colors hover:translate-x-1 transition-transform duration-200 inline-block hover:text-champagne-gold"
-                href="/products"
+                href="/products/indian-spices"
               >
                 Indian Spices
               </Link>
@@ -82,9 +82,25 @@ export default function Footer() {
             <li>
               <Link
                 className="text-on-tertiary-container hover:text-stark-white transition-colors hover:translate-x-1 transition-transform duration-200 inline-block hover:text-champagne-gold"
-                href="/products"
+                href="/products/organic-spices"
+              >
+                Organic Spices
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="text-on-tertiary-container hover:text-stark-white transition-colors hover:translate-x-1 transition-transform duration-200 inline-block hover:text-champagne-gold"
+                href="/products/organic-herbs"
               >
                 Organic Herbs
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="text-on-tertiary-container hover:text-stark-white transition-colors hover:translate-x-1 transition-transform duration-200 inline-block hover:text-champagne-gold"
+                href="/products/spray-dried-powders"
+              >
+                Spray Dried Powders
               </Link>
             </li>
           </ul>

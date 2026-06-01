@@ -44,7 +44,7 @@ export default function HomeClient() {
           <div className="max-w-container-max mx-auto px-margin-desktop">
             <div className="bg-deep-navy/90 backdrop-blur-md border border-outline-variant/20 rounded p-8 flex justify-between items-center shadow-2xl">
               <div className="text-center px-8 border-r border-outline-variant/20 last:border-0 flex-1">
-                <div className="font-stat-value text-stat-value text-champagne-gold mb-2">10+</div>
+                <div className="font-stat-value text-stat-value text-champagne-gold mb-2">12+</div>
                 <div className="font-label-caps text-label-caps text-surface-variant uppercase tracking-widest">Years Experience</div>
               </div>
               <div className="text-center px-8 border-r border-outline-variant/20 last:border-0 flex-1">
@@ -146,7 +146,7 @@ export default function HomeClient() {
                 <img alt="Dehydrated Vegetables" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/images/Dehydrated Vegetables.jpeg" />
                 <div className="absolute inset-0 bg-gradient-to-t from-deep-navy/80 via-deep-navy/20 to-transparent transition-opacity duration-300 group-hover:opacity-90"></div>
                 <div className="absolute bottom-0 left-0 p-8">
-                  <h3 className="font-headline-md text-headline-md text-stark-white mb-2">Dehydrated Vegetables</h3>
+                  <h3 className="font-headline-md text-headline-md text-stark-white mb-2">Dehydrated Onion & Garlic</h3>
                   <p className="text-surface-variant opacity-0 transform translate-y-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0 font-body-md text-body-md">Premium quality dehydrated produce preserving essential nutrients and flavor.</p>
                 </div>
               </Link>

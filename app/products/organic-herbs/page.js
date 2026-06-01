@@ -1,56 +1,51 @@
-import CategoryPageTemplate from "@/components/CategoryPageTemplate";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import WhatsAppButton from "@/components/WhatsAppButton";
+import Link from "next/link";
 
-const tabs = ["All", "Oregano", "Basil", "Thyme", "Rosemary", "Parsley"];
-
-const products = [
-  {
-    name: "Organic Oregano Leaves",
-    tag: "Oregano",
-    image: "https://images.unsplash.com/photo-1608797178974-15b35a61d121?q=80&w=600&auto=format&fit=crop",
-    description: "Carefully dried organic oregano leaves with robust aroma and distinct herbal flavor.",
-  },
-  {
-    name: "Organic Sweet Basil",
-    tag: "Basil",
-    image: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?q=80&w=600&auto=format&fit=crop",
-    description: "Premium culinary organic sweet basil, processed to retain essential chlorophyll and taste.",
-  },
-  {
-    name: "Organic Dried Thyme",
-    tag: "Thyme",
-    image: "https://images.unsplash.com/photo-1509358271058-acd22cc93898?q=80&w=600&auto=format&fit=crop",
-    description: "Strongly aromatic organic thyme leaves, ideal for soups, stocks, and meat dry rubs.",
-  },
-  {
-    name: "Organic Rosemary Needles",
-    tag: "Rosemary",
-    image: "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?q=80&w=600&auto=format&fit=crop",
-    description: "Whole dried organic rosemary needles, containing rich essential woodsy oils.",
-  },
-  {
-    name: "Organic Parsley Flakes",
-    tag: "Parsley",
-    image: "https://images.unsplash.com/photo-1608797178974-15b35a61d121?q=80&w=600&auto=format&fit=crop",
-    description: "Bright green organic parsley flakes, dried gently to preserve flavor and fresh color.",
-  },
-];
-
-const theme = {
-  banner: "bg-gradient-to-r from-[#2F5233] to-[#556B2F]",
-  accentText: "text-[#556B2F]",
-  accentBorder: "border-[#556B2F]",
-  buttonHoverBg: "hover:bg-[#556B2F] hover:text-stark-white",
-  buttonHoverBorder: "hover:border-[#556B2F]",
-  badge: "bg-emerald-50 text-emerald-700 border-emerald-200",
+export const metadata = {
+  title: "Organic Herbs - Europa Foods",
+  description: "Organic Herbs by Europa Foods — Coming Soon.",
 };
 
 export default function OrganicHerbsPage() {
   return (
-    <CategoryPageTemplate
-      categoryTitle="Organic Herbs"
-      tabs={tabs}
-      products={products}
-      theme={theme}
-    />
+    <div className="flex flex-col min-h-screen">
+      <Navbar variant="light" />
+
+      <main className="flex-grow bg-warm-cream flex flex-col items-center justify-center py-20 px-margin-mobile md:px-margin-desktop">
+        {/* Breadcrumb */}
+        <nav className="mb-10 font-body-md text-[11px] text-on-surface-variant flex items-center gap-2 bg-stark-white px-4 py-2.5 rounded-lg border border-outline-variant/10 shadow-sm">
+          <Link href="/products" className="hover:text-deep-navy transition-all hover:underline">Products</Link>
+          <span className="text-slate-400">/</span>
+          <span className="font-bold text-[#556B2F]">Organic Herbs</span>
+        </nav>
+
+        {/* Coming Soon Poster */}
+        <div className="w-full max-w-2xl rounded-2xl overflow-hidden shadow-xl border border-outline-variant/10">
+          <img
+            src="/images/coming soon.jpg"
+            alt="Organic Herbs — Coming Soon"
+            className="w-full h-full object-cover"
+          />
+        </div>
+
+        <p className="mt-8 font-body-md text-on-surface-variant text-center max-w-md">
+          Our Organic Herbs range is being curated. Stay tuned or reach out to us for early inquiries.
+        </p>
+
+        <a
+          href="https://wa.me/917041226666?text=Hello,%20I%20am%20interested%20in%20Organic%20Herbs%20from%20Europa%20Foods"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-6 inline-flex items-center gap-2 bg-deep-navy text-stark-white px-8 py-4 rounded-xl font-label-caps text-label-caps hover:bg-champagne-gold hover:text-deep-navy transition-colors duration-300"
+        >
+          Inquire via WhatsApp
+        </a>
+      </main>
+
+      <Footer />
+      <WhatsAppButton />
+    </div>
   );
 }

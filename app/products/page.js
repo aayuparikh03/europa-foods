@@ -11,10 +11,10 @@ export const metadata = {
 export default function ProductsPage() {
   const products = [
     {
-      name: "Dehydrated Vegetables",
-      category: "DEHYDRATED VEGETABLES",
+      name: "Dehydrated Onion & Garlic",
+      category: "DEHYDRATED ONION & GARLIC",
       image: "/images/Dehydrated Vegetables.jpeg",
-      href: "/products/dehydrated-vegetables"
+      href: "/products/dehydrated-onion-garlic"
     },
     {
       name: "Indian Spices",
@@ -71,7 +71,6 @@ export default function ProductsPage() {
 
               return (
                 <Link
-                  key={product.name}
                   href={product.href}
                   className={`${alignmentClasses} group relative overflow-hidden rounded bg-stark-white border border-outline-variant/10 aspect-[3/4] cursor-pointer block w-full shadow-sm hover:shadow-md transition-all duration-500`}
                 >
@@ -82,9 +81,6 @@ export default function ProductsPage() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-deep-navy/90 via-deep-navy/30 to-transparent transition-opacity duration-300 group-hover:opacity-95"></div>
                   <div className="absolute bottom-0 left-0 p-8 w-full">
-                    <span className="block text-champagne-gold font-label-caps text-[10px] font-bold tracking-widest uppercase mb-2">
-                      {product.category}
-                    </span>
                     <h3 className="font-headline-md text-headline-md text-stark-white leading-tight">
                       {product.name}
                     </h3>

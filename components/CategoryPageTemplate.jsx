@@ -11,7 +11,9 @@ function CategoryPageContent({
   categoryTitle, 
   tabs, 
   products,
-  theme
+  theme,
+  customSpecs,
+  noSpecSheet
 }) {
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -57,6 +59,7 @@ function CategoryPageContent({
   };
 
   const handleProductSelect = (product) => {
+    if (noSpecSheet) return;
     const params = new URLSearchParams(searchParams);
     params.set("product", product.name.toLowerCase().replace(/\s+/g, "-"));
     router.push(`/products/${getCategorySlug()}?${params.toString()}`);
@@ -188,7 +191,26 @@ function CategoryPageContent({
     };
   };
 
-  const specs = getSpecs(selectedProduct);
+  const specs = customSpecs
+    ? Object.fromEntries(
+        Object.entries(customSpecs).map(([key, item]) => [
+          key,
+          {
+            ...item,
+            content: (
+              <ul className="space-y-3 text-slate-600 text-xs md:text-sm">
+                {item.values.map((v, i) => (
+                  <li key={i} className="flex gap-3 items-start">
+                    <span className={`material-symbols-outlined text-sm mt-0.5 ${theme.accentText}`} style={{ fontVariationSettings: "'FILL' 1" }}>check_circle</span>
+                    <span>{v}</span>
+                  </li>
+                ))}
+              </ul>
+            )
+          }
+        ])
+      )
+    : getSpecs(selectedProduct);
   const viewTitle = selectedProduct ? selectedProduct.name : categoryTitle;
 
   return (
@@ -262,7 +284,7 @@ function CategoryPageContent({
                   <div
                     key={product.name + "-" + idx}
                     onClick={() => handleProductSelect(product)}
-                    className="group bg-stark-white border border-outline-variant/10 rounded-2xl p-5 shadow-[0_4px_25px_-5px_rgba(0,0,0,0.03)] hover:shadow-[0_16px_35px_-8px_rgba(0,0,0,0.06)] hover:border-[#2e7d32]/0 transition-all duration-500 cursor-pointer flex flex-col items-center text-center transform hover:-translate-y-1"
+                    className={`group bg-stark-white border border-outline-variant/10 rounded-2xl p-5 shadow-[0_4px_25px_-5px_rgba(0,0,0,0.03)] hover:shadow-[0_16px_35px_-8px_rgba(0,0,0,0.06)] transition-all duration-500 flex flex-col items-center text-center transform hover:-translate-y-1 ${noSpecSheet ? 'cursor-default' : 'cursor-pointer'}`}
                     style={{ borderColor: activeTab === product.tag ? "var(--color-outline-variant)" : "" }}
                   >
                     <div className="aspect-square w-full overflow-hidden bg-warm-cream rounded-xl mb-4 relative flex items-center justify-center border border-outline-variant/5">
@@ -275,9 +297,11 @@ function CategoryPageContent({
                     <h3 className="font-headline-md text-sm text-deep-navy font-bold group-hover:text-deep-navy transition-colors uppercase tracking-wider mb-2">
                       {product.name}
                     </h3>
-                    <span className={`text-[10px] font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center gap-1 ${theme.accentText}`}>
-                      Specs Sheet <span className="material-symbols-outlined text-xs">arrow_forward</span>
-                    </span>
+                    {!noSpecSheet && (
+                      <span className={`text-[10px] font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center gap-1 ${theme.accentText}`}>
+                        Specs Sheet <span className="material-symbols-outlined text-xs">arrow_forward</span>
+                      </span>
+                    )}
                   </div>
                 ))}
               </div>
@@ -409,7 +433,7 @@ export default function CategoryPageTemplate(props) {
         <div className="font-body-md text-deep-navy font-semibold">Loading Catalog...</div>
       </div>
     }>
-      <CategoryPageContent {...props} theme={theme} />
+      <CategoryPageContent {...props} theme={theme} noSpecSheet={props.noSpecSheet} customSpecs={props.customSpecs} />
     </Suspense>
   );
 }

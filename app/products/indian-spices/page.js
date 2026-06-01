@@ -68,6 +68,65 @@ const theme = {
   badge: "bg-red-50 text-red-700 border-red-200"
 };
 
+const customSpecs = {
+  "packaging-details": {
+    title: "Packaging Details",
+    icon: "inventory_2",
+    values: [
+      "Primary Barrier: Double food-grade HDPE inner bags to prevent moisture and aroma loss.",
+      "Outer Protection: Packed in 20 kg or 25 kg net jute bags / PP woven bags / corrugated cartons.",
+      "Custom Requests: Vacuum packing, aluminum foil barrier bags, or private label packaging available on request."
+    ]
+  },
+  "botanical-name": {
+    title: "Botanical Name",
+    icon: "eco",
+    values: [
+      "Capsicum annuum (Sannam, S17, S9, Tomato/Chapata variants)",
+      "Capsicum chinense (Ghost Pepper / Bhut Jolokia)",
+      "Capsicum frutescens (Bird Eye Chilli)"
+    ]
+  },
+  "chilli-type": {
+    title: "Chilli Type",
+    icon: "category",
+    values: [
+      "Whole Chillies: S17 Teja, 334/S10/S4 Sannam, Bird Eye, Ghost Pepper, S9 Mundu, Tomato/Chapata",
+      "Powder: Premium ground red chilli powder (low-temperature milled)",
+      "Flakes: Uniform crushed dry red chilli flakes"
+    ]
+  },
+  "style": {
+    title: "Style",
+    icon: "style",
+    values: [
+      "Whole: Stemmed / Unstemmed / De-seeded available",
+      "Powder: Fine mesh ground (60–80 mesh) or coarse ground",
+      "Flakes: Uniform cut, low seed count, dust-free"
+    ]
+  },
+  "speciality": {
+    title: "Speciality",
+    icon: "verified",
+    values: [
+      "100% natural crop — no artificial colors, flavors, or additives.",
+      "Optical Sortex cleaned and metal detected for maximum hygiene.",
+      "Conforming to EU, US FDA, and FSSAI food safety standards.",
+      "Premium Export Grade A, B, and Commercial grades available."
+    ]
+  },
+  "moisture": {
+    title: "Moisture",
+    icon: "opacity",
+    values: [
+      "Standard Limit: 10.0% Maximum (Whole & Flakes) / 8.0% Maximum (Powder)",
+      "Shelf Life: 12 – 24 months from manufacture date under cool, dry warehouse conditions.",
+      "Total Plate Count (TPC): < 100,000 cfu/g. Yeast & Mold < 100 cfu/g.",
+      "Pathogen Free: E. coli and Salmonella Negative per batch certification."
+    ]
+  }
+};
+
 export default function IndianSpicesPage() {
   return (
     <CategoryPageTemplate
@@ -75,6 +134,8 @@ export default function IndianSpicesPage() {
       tabs={tabs}
       products={products}
       theme={theme}
+      customSpecs={customSpecs}
     />
   );
 }
+

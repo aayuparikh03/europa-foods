@@ -10,7 +10,7 @@ const navLinks = [
   { label: "About", href: "/about" },
   { label: "Products", href: "/products" },
   { label: "Quality", href: "/quality" },
-  { label: "Achievements", href: "/achievements" },
+  // { label: "Achievements", href: "/achievements" },
   { label: "Shipments", href: "/shipments" },
 ];
 
@@ -38,24 +38,22 @@ export default function Navbar({ variant = "light" }) {
     <>
       <nav
         id="main-nav"
-        className={`sticky top-0 transition-all duration-500 backdrop-blur-md z-50 border-b border-outline-variant/10 ${
-          scrolled
-            ? "nav-scrolled"
-            : isDark
+        className={`sticky top-0 transition-all duration-500 backdrop-blur-md z-50 border-b border-outline-variant/10 ${scrolled
+          ? "nav-scrolled"
+          : isDark
             ? "bg-transparent"
             : "bg-transparent"
-        }`}
+          }`}
       >
         <div className="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop py-4 md:py-6 max-w-container-max mx-auto">
           {/* Brand */}
           <div className="font-headline-md text-headline-md font-serif tracking-wide font-bold">
             <Link
               href="/"
-              className={`flex items-center gap-3 ${
-                isDark
-                  ? "text-stark-white"
-                  : "text-on-surface dark:text-on-primary-container"
-              }`}
+              className={`flex items-center gap-3 ${isDark
+                ? "text-stark-white"
+                : "text-on-surface dark:text-on-primary-container"
+                }`}
             >
               <img
                 src="/images/Europa Logo Without bg.png"
@@ -72,13 +70,12 @@ export default function Navbar({ variant = "light" }) {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`font-body-md text-body-md tracking-wide transition-all duration-300 ${
-                  isActive(link.href)
-                    ? "text-champagne-gold font-semibold border-b-2 border-champagne-gold pb-1"
-                    : isDark
+                className={`font-body-md text-body-md tracking-wide transition-all duration-300 ${isActive(link.href)
+                  ? "text-champagne-gold font-semibold border-b-2 border-champagne-gold pb-1"
+                  : isDark
                     ? "text-stark-white/80 hover:text-champagne-gold"
                     : "text-on-surface-variant hover:text-champagne-gold"
-                }`}
+                  }`}
               >
                 {link.label}
               </Link>
@@ -101,11 +98,10 @@ export default function Navbar({ variant = "light" }) {
             onClick={() => setMobileOpen(true)}
           >
             <span
-              className={`material-symbols-outlined text-3xl ${
-                isDark
-                  ? "text-stark-white"
-                  : "text-on-surface dark:text-on-primary-container"
-              }`}
+              className={`material-symbols-outlined text-3xl ${isDark
+                ? "text-stark-white"
+                : "text-on-surface dark:text-on-primary-container"
+                }`}
             >
               menu
             </span>

@@ -141,6 +141,8 @@ export default function SprayDriedPowdersPage() {
       tabs={tabs}
       products={products}
       theme={theme}
+      noSpecSheet
     />
   );
 }
+

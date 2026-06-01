@@ -54,6 +54,64 @@ const theme = {
   badge: "bg-amber-50 text-amber-700 border-amber-200"
 };
 
+const customSpecs = {
+  "other-name": {
+    title: "Other Name",
+    icon: "label",
+    values: [
+      "Cumin: Jeera, Zeera, Cumino",
+      "Turmeric: Haldi, Indian Saffron, Golden Spice",
+      "Coriander: Dhania, Cilantro Seed",
+      "Fennel: Saunf, Sweet Anise, Finocchio",
+      "Ginger: Adrak (fresh), Sonth (dry), Sunthi",
+      "Cinnamon: Dalchini, True Cinnamon, Sweet Wood"
+    ]
+  },
+  "botanical-name": {
+    title: "Botanical Name",
+    icon: "eco",
+    values: [
+      "Cumin: Cuminum cyminum",
+      "Turmeric: Curcuma longa",
+      "Coriander: Coriandrum sativum",
+      "Fennel: Foeniculum vulgare",
+      "Ginger: Zingiber officinale",
+      "Cinnamon: Cinnamomum verum / Cinnamomum zeylanicum"
+    ]
+  },
+  "synonyms": {
+    title: "Synonyms",
+    icon: "translate",
+    values: [
+      "Cumin: White Cumin, Roman Caraway",
+      "Turmeric: Curcuma, Jiang Huang (Chinese), Ukon (Japanese)",
+      "Coriander: Chinese Parsley Seed, Koriander",
+      "Fennel: Fenouil (French), Fenchel (German)",
+      "Ginger: Gingembre (French), Ingwer (German)",
+      "Cinnamon: Canela (Spanish), Cannelle (French)"
+    ]
+  },
+  "plant-family": {
+    title: "Plant Family",
+    icon: "park",
+    values: [
+      "Cumin & Coriander & Fennel: Apiaceae (Umbelliferae)",
+      "Turmeric & Ginger: Zingiberaceae",
+      "Cinnamon: Lauraceae"
+    ]
+  },
+  "available-in": {
+    title: "Available In",
+    icon: "inventory",
+    values: [
+      "Whole Seeds / Roots / Sticks (as applicable to each spice)",
+      "Coarse Ground / Fine Powder (60–80 mesh)",
+      "Certified Organic — with valid organic certification documentation",
+      "Packing: 20 kg / 25 kg bags or custom private label packaging on request"
+    ]
+  }
+};
+
 export default function OrganicSpicesPage() {
   return (
     <CategoryPageTemplate
@@ -61,6 +119,8 @@ export default function OrganicSpicesPage() {
       tabs={tabs}
       products={products}
       theme={theme}
+      customSpecs={customSpecs}
     />
   );
 }
+

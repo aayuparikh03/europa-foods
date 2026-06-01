@@ -27,57 +27,19 @@ export default function ShipmentsPage() {
           </div>
           <div className="md:col-span-5 mt-12 md:mt-0 relative h-[500px] md:h-[700px] img-container">
             <div className="absolute inset-0 bg-deep-navy/10 z-10 pointer-events-none"></div>
-            <img alt="Logistics Port" className="w-full h-full object-cover hover-zoom-img" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQqT06hBvUoN60T38Qh03248gQ1m92G00Tq80608QO8Qp208qQo0hT90N83N5F1D3S9gT3D3B3P1X2E73B5X2J6K232G0G0V1F5S1R6V0D7E73B5A3O1J6L1R4R900F3H5064P9D58E628O1"/>
+            <img alt="Logistics Port" className="w-full h-full object-cover hover-zoom-img" src="/images/shipment.jpeg" />
           </div>
         </div>
       </header>
 
-      {/* Packaging Standards (Bento Layout) */}
-      <section className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-section-gap-mobile md:py-section-gap">
-        <div className="mb-16">
-          <span className="font-label-caps text-label-caps text-champagne-gold block mb-4 uppercase tracking-widest">Integrity Preserved</span>
-          <h2 className="font-headline-xl text-headline-xl text-deep-navy">Packaging Standards</h2>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-gutter">
-          {/* Vacuum Sealing Card */}
-          <div className="md:col-span-7 bg-stark-white border border-deep-navy/10 flex flex-col group cursor-pointer">
-            <div className="h-[400px] w-full img-container relative border-b border-deep-navy/10">
-              <img alt="Vacuum Sealing" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBntU7g24Rnxo0cd5W0d0GHM4wekIlaVIRrJH8qnowcA1zeC9zwy8rlvHSCzMh9OqYj8DB2TdftSIXoOEilje3Hu5FnFViVDM67Ya1bsgQKffXomHUewrHgeu5L-GX_ySTY7bGo3QuUe9DD7Rp-sCz-iLgyVpoAykG6691E1XeFxRo2I-mcLvQsDvssysOdH_fKiaKcjh7o6uucAt-OgjpqJgzSuyczOcDTjt4UuF_6J5AZgU0-6H48lJLANxQGzpBoYbaoQYUw0Ahb"/>
-            </div>
-            <div className="p-10 flex flex-col justify-center flex-grow">
-              <div className="flex items-center gap-3 mb-4">
-                <span className="material-symbols-outlined text-champagne-gold" style={{ fontWeight: 300 }}>verified_user</span>
-                <h3 className="font-headline-md text-headline-md text-deep-navy">Vacuum Sealing</h3>
-              </div>
-              <p className="font-body-md text-body-md text-on-surface-variant">
-                Our advanced vacuum sealing technology removes oxygen to halt degradation, ensuring delicate flavor profiles and nutritional integrity are locked in from our facilities to your kitchen.
-              </p>
-            </div>
-          </div>
-          {/* Bulk Bags Card */}
-          <div className="md:col-span-5 bg-stark-white border border-deep-navy/10 flex flex-col group cursor-pointer">
-            <div className="h-[300px] w-full img-container relative border-b border-deep-navy/10">
-              <img alt="Bulk Bags" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAO_ZMz5io2HK79jCSBLiQFtN8gD1LZ8aDd3EC-6G2Ij0JjAGPyzxctMVDAe-K-52qFSsLKjFpcPpWjirD9myovVpC0kje2twx0okkYQsim-MdUPhExAKJVPG-oFRBFlEwAl0cd-qNfRAyly1-3iihhcHKX8RMcd1jpNbI5mElKBAHsKyV6FbXgA2m4iGnja8cG45_AA43mHSwQG8JTozEg2dzH9MdIWMh85R6x8VHqO7E9mBGMAlH79xCqtNkOcanC8F_saCewo4om"/>
-            </div>
-            <div className="p-10 flex flex-col justify-center flex-grow">
-              <div className="flex items-center gap-3 mb-4">
-                <span className="material-symbols-outlined text-champagne-gold" style={{ fontWeight: 300 }}>inventory_2</span>
-                <h3 className="font-headline-md text-headline-md text-deep-navy">Export-Grade Bulk Bags</h3>
-              </div>
-              <p className="font-body-md text-body-md text-on-surface-variant">
-                Designed for resilience and efficient port-to-port handling, our heavy-duty bulk bags maintain product structure while optimizing freight volume.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+
 
       {/* Port-to-Port Handling (Editorial Table/List) */}
       <section className="bg-stark-white py-section-gap-mobile md:py-section-gap border-y border-deep-navy/10">
         <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
             <div className="md:col-span-1">
-              <h2 className="font-headline-lg text-headline-lg text-deep-navy sticky top-32">Port-to-Port<br/>Handling Protocol</h2>
+              <h2 className="font-headline-lg text-headline-lg text-deep-navy sticky top-32">Port-to-Port<br />Handling Protocol</h2>
             </div>
             <div className="md:col-span-3">
               {/* Step 1 */}
