@@ -23,7 +23,7 @@ export default function AboutPage() {
               alt="Assorted premium dehydrated vegetables and spices"
             />
             {/* Deep Navy Gradient Overlay for legibility and cinematic feel */}
-            <div className="absolute inset-0 bg-deep-navy/70 md:bg-gradient-to-r md:from-deep-navy/90 md:via-deep-navy/60 md:to-transparent"></div>
+            <div className="absolute inset-0 bg-deep-navy/20 md:bg-gradient-to-r md:from-deep-navy/65 md:via-deep-navy/30 md:to-transparent"></div>
             {/* Content Alignment (Left Anchor) */}
             <div className="relative z-10 w-full md:w-1/2 h-full flex flex-col justify-center items-center text-center md:items-start md:text-left px-8 md:px-16">
               <span className="font-label-caps text-label-caps text-champagne-gold uppercase tracking-widest mb-6 block">Our Heritage</span>
@@ -41,7 +41,7 @@ export default function AboutPage() {
         <section className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-section-gap-mobile md:py-section-gap border-y border-outline-variant/10 bg-stark-white">
           <div className="max-w-3xl mx-auto text-center">
             <span className="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-widest mb-8 block">Our Mission</span>
-            <p className="font-headline-lg text-headline-lg text-deep-navy leading-relaxed">
+            <p className="text-base md:font-headline-lg md:text-headline-lg text-deep-navy leading-relaxed">
               &quot;To elevate global food manufacturing by supplying the finest, most rigorously quality-controlled dehydrated European produce, preserving nature&apos;s essence from field to facility.&quot;
             </p>
           </div>
@@ -109,7 +109,7 @@ export default function AboutPage() {
               </div>
               <div className="text-center">
                 <h3 className="font-headline-md text-headline-md text-deep-navy">Mr. Mihir Gajera</h3>
-                <p className="font-label-caps text-label-caps text-champagne-gold uppercase tracking-widest mt-1">Partner & Founder</p>
+                <p className="font-label-caps text-label-caps text-champagne-gold uppercase tracking-widest mt-1">Partner & Co Founder</p>
               </div>
             </div>
             {/* Profile Card */}

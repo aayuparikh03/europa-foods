@@ -109,31 +109,7 @@ export default function HomeClient() {
         </section>
       </RevealSection>
 
-      {/* STATS BANNER (Mobile only) */}
-      <RevealSection>
-        <section className="bg-deep-navy py-16 md:hidden">
-          <div className="max-w-container-max mx-auto px-margin-mobile">
-            <div className="grid grid-cols-2 gap-8 text-center">
-              <div>
-                <div className="font-stat-value text-stat-value text-champagne-gold mb-1">30+</div>
-                <div className="font-label-caps text-label-caps text-surface-variant uppercase">Years</div>
-              </div>
-              <div>
-                <div className="font-stat-value text-stat-value text-champagne-gold mb-1">15+</div>
-                <div className="font-label-caps text-label-caps text-surface-variant uppercase">Countries</div>
-              </div>
-              <div>
-                <div className="font-stat-value text-stat-value text-champagne-gold mb-1">5</div>
-                <div className="font-label-caps text-label-caps text-surface-variant uppercase">Categories</div>
-              </div>
-              <div>
-                <div className="font-stat-value text-stat-value text-champagne-gold mb-1">100%</div>
-                <div className="font-label-caps text-label-caps text-surface-variant uppercase">Pure</div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </RevealSection>
+
 
       {/* PRODUCTS */}
       <RevealSection>
@@ -236,15 +212,54 @@ export default function HomeClient() {
             <p className="font-body-lg text-body-lg text-gray-600 mb-16 max-w-3xl mx-auto">
               Delivering premium quality dehydrated foods and spices to global markets with unwavering reliability.
             </p>            <div className="relative w-full max-w-5xl mx-auto aspect-[2/1] bg-deep-navy/5 rounded-xl border border-outline-variant/20 overflow-hidden shadow-inner">
-              <div className="absolute inset-0 opacity-30 bg-no-repeat bg-center bg-contain mix-blend-multiply" style={{ backgroundImage: "url('https://upload.wikimedia.org/wikipedia/commons/8/80/World_map_-_low_resolution.svg')" }}></div>
-              <div className="absolute top-[30%] left-[20%] w-3 h-3 bg-champagne-gold rounded-full location-dot"></div>
-              <div className="absolute top-[40%] left-[45%] w-3 h-3 bg-champagne-gold rounded-full location-dot" style={{ animationDelay: "0.5s" }}></div>
-              <div className="absolute top-[25%] left-[50%] w-3 h-3 bg-champagne-gold rounded-full location-dot" style={{ animationDelay: "1s" }}></div>
-              <div className="absolute top-[35%] left-[75%] w-3 h-3 bg-champagne-gold rounded-full location-dot" style={{ animationDelay: "0.2s" }}></div>
-              <div className="absolute top-[60%] left-[80%] w-3 h-3 bg-champagne-gold rounded-full location-dot" style={{ animationDelay: "0.8s" }}></div>
-              <div className="absolute top-[70%] left-[30%] w-3 h-3 bg-champagne-gold rounded-full location-dot" style={{ animationDelay: "1.2s" }}></div>
-              <div className="absolute top-[45%] left-[60%] w-3 h-3 bg-champagne-gold rounded-full location-dot" style={{ animationDelay: "0.6s" }}></div>
-            </div>
+              <div
+                className="absolute inset-0 opacity-30 bg-no-repeat bg-center bg-contain mix-blend-multiply"
+                style={{
+                  backgroundImage:
+                    "url('https://upload.wikimedia.org/wikipedia/commons/8/80/World_map_-_low_resolution.svg')",
+                }}
+              ></div>
+
+              {/* USA ~25% left, 32% top */}
+              <div
+                className="absolute top-[32%] left-[25%] w-3 h-3 bg-champagne-gold rounded-full location-dot"
+              ></div>
+
+              {/* Germany / Europe ~50% left, 27% top */}
+              <div
+                className="absolute top-[27%] left-[50%] w-3 h-3 bg-champagne-gold rounded-full location-dot"
+                style={{ animationDelay: "0.5s" }}
+              ></div>
+
+              {/* West Africa (Mali center) ~45% left, 46% top */}
+              <div
+                className="absolute top-[46%] left-[45%] w-3 h-3 bg-champagne-gold rounded-full location-dot"
+                style={{ animationDelay: "1s" }}
+              ></div>
+
+              {/* Middle East / Arabia ~59% left, 45% top */}
+              <div
+                className="absolute top-[45%] left-[59%] w-3 h-3 bg-champagne-gold rounded-full location-dot"
+                style={{ animationDelay: "0.2s" }}
+              ></div>
+
+              {/* Japan (Honshu center ~133°E 35°N) ~83% left, 35% top */}
+              <div
+                className="absolute top-[35%] left-[83%] w-3 h-3 bg-champagne-gold rounded-full location-dot"
+                style={{ animationDelay: "0.8s" }}
+              ></div>
+
+              {/* Brazil ~34% left, 72% top */}
+              <div
+                className="absolute top-[72%] left-[34%] w-3 h-3 bg-champagne-gold rounded-full location-dot"
+                style={{ animationDelay: "1.2s" }}
+              ></div>
+
+              {/* Australia (Stuart NT center ~134°E 23°S) ~84% left, 73% top */}
+              <div
+                className="absolute top-[73%] left-[84%] w-3 h-3 bg-champagne-gold rounded-full location-dot"
+                style={{ animationDelay: "0.6s" }}
+              ></div></div>
           </div>
         </section>
       </RevealSection>
