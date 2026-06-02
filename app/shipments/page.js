@@ -19,11 +19,8 @@ export default function ShipmentsPage() {
             <span className="font-label-caps text-label-caps text-champagne-gold block mb-6 uppercase tracking-widest">Global Supply Chain</span>
             <h1 className="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-deep-navy mb-8 leading-tight">Precision in Every Mile.</h1>
             <p className="font-body-lg text-body-lg text-on-surface-variant max-w-xl mb-12">
-              Our logistics network is built on the principles of uncompromising quality and absolute reliability. From European ports to global destinations, we ensure your high-end food products are handled with editorial-grade precision.
+              Our logistics network is built on the principles of uncompromising quality and absolute reliability. From Indian ports to global destinations, we ensure your high-end food products are handled with editorial-grade precision.
             </p>
-            <button className="bg-deep-navy text-stark-white px-8 py-4 rounded-[6px] font-label-caps text-label-caps hover:bg-champagne-gold hover:text-deep-navy transition-colors duration-300">
-              Explore Routing
-            </button>
           </div>
           <div className="md:col-span-5 mt-12 md:mt-0 relative h-[500px] md:h-[700px] img-container">
             <div className="absolute inset-0 bg-deep-navy/10 z-10 pointer-events-none"></div>
