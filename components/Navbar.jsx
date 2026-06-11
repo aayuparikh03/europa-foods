@@ -66,20 +66,60 @@ export default function Navbar({ variant = "light" }) {
 
           {/* Desktop Nav */}
           <div className="hidden md:flex space-x-8">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className={`font-body-md text-body-md tracking-wide transition-all duration-300 ${isActive(link.href)
-                  ? "text-champagne-gold font-semibold border-b-2 border-champagne-gold pb-1"
-                  : isDark
-                    ? "text-stark-white/80 hover:text-champagne-gold"
-                    : "text-on-surface-variant hover:text-champagne-gold"
-                  }`}
-              >
-                {link.label}
-              </Link>
-            ))}
+            {navLinks.map((link) => {
+              if (link.label === "Products") {
+                return (
+                  <div key={link.href} className="relative group py-1">
+                    <Link
+                      href={link.href}
+                      className={`font-body-md text-body-md tracking-wide transition-all duration-300 flex items-center gap-1 ${isActive(link.href)
+                        ? "text-champagne-gold font-semibold border-b-2 border-champagne-gold pb-1"
+                        : isDark
+                          ? "text-stark-white/80 hover:text-champagne-gold"
+                          : "text-on-surface-variant hover:text-champagne-gold"
+                        }`}
+                    >
+                      <span>{link.label}</span>
+                      <span className="material-symbols-outlined text-[16px] transition-transform duration-300 group-hover:rotate-180">
+                        keyboard_arrow_down
+                      </span>
+                    </Link>
+                    {/* Dropdown Menu */}
+                    <div className="absolute left-1/2 -translate-x-1/2 top-full mt-1 w-72 bg-deep-navy border border-champagne-gold/20 rounded shadow-2xl opacity-0 invisible translate-y-2 transition-all duration-300 z-50 py-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 before:absolute before:-top-2 before:left-0 before:right-0 before:h-2 before:content-['']">
+                      {[
+                        { label: "Dehydrated Products", href: "/products/dehydrated-onion-garlic" },
+                        { label: "Indian Spices", href: "/products/indian-spices" },
+                        { label: "Organic Spices", href: "/products/organic-spices" },
+                        { label: "Organic Herbs", href: "/products/organic-herbs" },
+                        { label: "Spray Dried Fruit & Vegetable Powder", href: "/products/spray-dried-powders" },
+                      ].map((subLink) => (
+                        <Link
+                          key={subLink.href}
+                          href={subLink.href}
+                          className="block px-6 py-3 text-body-sm text-stark-white/95 hover:text-champagne-gold hover:bg-champagne-gold/10 transition-colors duration-150 border-b border-champagne-gold/5 last:border-0 font-body-md"
+                        >
+                          {subLink.label}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                );
+              }
+              return (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className={`font-body-md text-body-md tracking-wide transition-all duration-300 ${isActive(link.href)
+                    ? "text-champagne-gold font-semibold border-b-2 border-champagne-gold pb-1"
+                    : isDark
+                      ? "text-stark-white/80 hover:text-champagne-gold"
+                      : "text-on-surface-variant hover:text-champagne-gold"
+                    }`}
+                >
+                  {link.label}
+                </Link>
+              );
+            })}
           </div>
 
           {/* CTA */}
