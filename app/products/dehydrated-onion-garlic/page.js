@@ -256,7 +256,7 @@ const categoriesData = {
   }
 };
 
-function DehydratedVegetablesContent() {
+function DehydratedOnionGarlicContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
 
@@ -269,7 +269,7 @@ function DehydratedVegetablesContent() {
     const params = new URLSearchParams();
     if (catId) params.set("category", catId);
     if (prodId) params.set("product", prodId);
-    router.push(`/products/dehydrated-vegetables?${params.toString()}`);
+    router.push(`/products/dehydrated-onion-garlic?${params.toString()}`);
   };
 
   const handleCategoryClick = (catId) => {
@@ -307,7 +307,7 @@ function DehydratedVegetablesContent() {
   }
 
   // Determine the Title for the Header Card
-  let viewTitle = "Dehydrated Products";
+  let viewTitle = "Dehydrated Onion & Garlic";
   if (currentView !== "categories" && selectedCategory) {
     viewTitle = selectedCategory.name;
   }
@@ -525,10 +525,10 @@ function DehydratedVegetablesContent() {
           <Link href="/products" className="hover:text-[#2E7D32] hover:underline transition-all">Products</Link>
           <span className="text-slate-400">/</span>
           {currentView === "categories" ? (
-            <span className="text-[#2E7D32] font-bold">Dehydrated Vegetables</span>
+            <span className="text-[#2E7D32] font-bold">Dehydrated Onion & Garlic</span>
           ) : (
             <>
-              <button onClick={handleBackToCategories} className="hover:text-[#2E7D32] hover:underline transition-all cursor-pointer">Dehydrated Vegetables</button>
+              <button onClick={handleBackToCategories} className="hover:text-[#2E7D32] hover:underline transition-all cursor-pointer">Dehydrated Onion & Garlic</button>
               <span className="text-slate-400">/</span>
               {currentView === "subproducts" ? (
                 <span className="text-[#2E7D32] font-bold">{selectedCategory.name}</span>
@@ -714,14 +714,14 @@ function DehydratedVegetablesContent() {
   );
 }
 
-export default function DehydratedVegetablesPage() {
+export default function DehydratedOnionGarlicPage() {
   return (
     <Suspense fallback={
       <div className="flex flex-col min-h-screen bg-warm-cream justify-center items-center">
         <div className="font-body-md text-deep-navy font-semibold">Loading Catalog...</div>
       </div>
     }>
-      <DehydratedVegetablesContent />
+      <DehydratedOnionGarlicContent />
     </Suspense>
   );
 }

@@ -191,9 +191,9 @@ function CategoryPageContent({
     };
   };
 
-  const specs = customSpecs
+  const specs = (selectedProduct && selectedProduct.specs)
     ? Object.fromEntries(
-        Object.entries(customSpecs).map(([key, item]) => [
+        Object.entries(selectedProduct.specs).map(([key, item]) => [
           key,
           {
             ...item,
@@ -210,7 +210,26 @@ function CategoryPageContent({
           }
         ])
       )
-    : getSpecs(selectedProduct);
+    : customSpecs
+      ? Object.fromEntries(
+          Object.entries(customSpecs).map(([key, item]) => [
+            key,
+            {
+              ...item,
+              content: (
+                <ul className="space-y-3 text-slate-600 text-xs md:text-sm">
+                  {item.values.map((v, i) => (
+                    <li key={i} className="flex gap-3 items-start">
+                      <span className={`material-symbols-outlined text-sm mt-0.5 ${theme.accentText}`} style={{ fontVariationSettings: "'FILL' 1" }}>check_circle</span>
+                      <span>{v}</span>
+                    </li>
+                  ))}
+                </ul>
+              )
+            }
+          ])
+        )
+      : getSpecs(selectedProduct);
   const viewTitle = selectedProduct ? selectedProduct.name : categoryTitle;
 
   return (
@@ -299,7 +318,7 @@ function CategoryPageContent({
                     </h3>
                     {!noSpecSheet && (
                       <span className={`text-[10px] font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center gap-1 ${theme.accentText}`}>
-                        Specs Sheet <span className="material-symbols-outlined text-xs">arrow_forward</span>
+                        {product.noSpecSheet ? "View Details" : "Specs Sheet"} <span className="material-symbols-outlined text-xs">arrow_forward</span>
                       </span>
                     )}
                   </div>
@@ -362,35 +381,37 @@ function CategoryPageContent({
                   </div>
 
                   {/* Refined Accordion List */}
-                  <div className="border border-outline-variant/10 rounded-2xl overflow-hidden bg-stark-white shadow-sm divide-y divide-outline-variant/10">
-                    {Object.entries(specs).map(([key, item]) => {
-                      const isOpen = activeAccordion === key;
-                      return (
-                        <div key={key} className={`transition-colors duration-300 ${isOpen ? 'bg-slate-50/50' : ''}`}>
-                          <button
-                            onClick={() => setActiveAccordion(isOpen ? "" : key)}
-                            className="w-full py-4.5 px-6 flex justify-between items-center text-left hover:bg-slate-50 transition-colors"
-                          >
-                            <div className="flex items-center gap-3">
-                              <span className={`material-symbols-outlined text-xl ${theme.accentText}`}>{item.icon}</span>
-                              <span className="font-body-md font-bold text-sm text-deep-navy">{item.title}:</span>
-                            </div>
-                            <span 
-                              className={`material-symbols-outlined transition-transform duration-300 ${theme.accentText}`}
-                              style={{ transform: isOpen ? 'rotate(180deg)' : 'rotate(0deg)' }}
+                  {!selectedProduct.noSpecSheet && (
+                    <div className="border border-outline-variant/10 rounded-2xl overflow-hidden bg-stark-white shadow-sm divide-y divide-outline-variant/10">
+                      {Object.entries(specs).map(([key, item]) => {
+                        const isOpen = activeAccordion === key;
+                        return (
+                          <div key={key} className={`transition-colors duration-300 ${isOpen ? 'bg-slate-50/50' : ''}`}>
+                            <button
+                              onClick={() => setActiveAccordion(isOpen ? "" : key)}
+                              className="w-full py-4.5 px-6 flex justify-between items-center text-left hover:bg-slate-50 transition-colors"
                             >
-                              keyboard_arrow_down
-                            </span>
-                          </button>
-                          {isOpen && (
-                            <div className="pb-5 px-6 animate-fade-in">
-                              {item.content}
-                            </div>
-                          )}
-                        </div>
-                      );
-                    })}
-                  </div>
+                              <div className="flex items-center gap-3">
+                                <span className={`material-symbols-outlined text-xl ${theme.accentText}`}>{item.icon}</span>
+                                <span className="font-body-md font-bold text-sm text-deep-navy">{item.title}:</span>
+                              </div>
+                              <span 
+                                className={`material-symbols-outlined transition-transform duration-300 ${theme.accentText}`}
+                                style={{ transform: isOpen ? 'rotate(180deg)' : 'rotate(0deg)' }}
+                              >
+                                keyboard_arrow_down
+                              </span>
+                            </button>
+                            {isOpen && (
+                              <div className="pb-5 px-6 animate-fade-in">
+                                {item.content}
+                              </div>
+                            )}
+                          </div>
+                        );
+                      })}
+                    </div>
+                  )}
 
                   {/* Premium WhatsApp Inquiry Button */}
                   <a

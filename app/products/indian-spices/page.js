@@ -4,60 +4,254 @@ const tabs = ["All", "Whole Chillies", "Powder", "Flakes"];
 
 const products = [
   {
-    name: "S17 Chilli - Teja Chilli",
+    name: "S17 Chili / Chili de Arbol / Teja",
     tag: "Whole Chillies",
     image: "/images/Product%20Images/Indian%20Spices/S17%20Chilli%20-%20Teja%20Chilli.jpg",
     description: "Highly hot dry red chilli with sharp, fiery heat. Known for its intense color and rich capsicum oil content, popular for spice blends and extraction.",
-    loadingCapacity: "14 - 15 MT in 40ft container (loose bags)."
+    loadingCapacity: "14 - 15 MT in 40ft container (loose bags).",
+    specs: {
+      "botanical-name": {
+        title: "Botanical Name",
+        icon: "eco",
+        values: ["Capsicum Frutescens"]
+      },
+      "chilli-type": {
+        title: "Chilli Type",
+        icon: "category",
+        values: ["With Stem / Stemless / Stem Cut"]
+      },
+      "style": {
+        title: "Style",
+        icon: "style",
+        values: ["Sun Dried"]
+      },
+      "speciality": {
+        title: "Speciality",
+        icon: "verified",
+        values: ["No Artificial Color, Rich Aroma, Free from Contamination"]
+      },
+      "moisture": {
+        title: "Moisture",
+        icon: "opacity",
+        values: ["Less Than 12% Maximum"]
+      },
+      "packaging-details": {
+        title: "Packaging Details",
+        icon: "inventory_2",
+        values: ["10, 15, 20 & 25 kg PP Sack / Jute Bag"]
+      }
+    }
   },
   {
-    name: "334 - S10 - S4 - Sannam Chilli",
+    name: "334 / S10 / S4 / Sannam Chilli",
     tag: "Whole Chillies",
     image: "/images/Product%20Images/Indian%20Spices/334%20-%20S10%20-%20S4%20-%20Sannam%20Chilli.jpg",
     description: "Medium hot red chilli with thick skin and rich aroma. The most exported whole chilli, perfect for general culinary heat and seasoning lines.",
-    loadingCapacity: "14 - 15 MT in 40ft container."
+    loadingCapacity: "14 - 15 MT in 40ft container.",
+    specs: {
+      "botanical-name": {
+        title: "Botanical Name",
+        icon: "eco",
+        values: ["Capsicum Frutescens"]
+      },
+      "chilli-type": {
+        title: "Chilli Type",
+        icon: "category",
+        values: ["With Stem / Stemless / Stem Cut"]
+      },
+      "style": {
+        title: "Style",
+        icon: "style",
+        values: ["Sun Dried"]
+      },
+      "speciality": {
+        title: "Speciality",
+        icon: "verified",
+        values: ["No Artificial Color, Rich Aroma, Free from Contamination"]
+      },
+      "moisture": {
+        title: "Moisture",
+        icon: "opacity",
+        values: ["Less Than 12% maximum"]
+      },
+      "packaging-details": {
+        title: "Packaging Details",
+        icon: "inventory_2",
+        values: ["10, 15, 20 & 25 kg PP Sack / Jute Bag"]
+      }
+    }
   },
   {
-    name: "Bird Eye Chilli",
+    name: "Bird's Eye Chilli",
     tag: "Whole Chillies",
     image: "/images/Product%20Images/Indian%20Spices/Bird%20Eye%20Chilli.jpg",
     description: "Small, highly potent dry red chilli with high heat index. Grown organically, it brings an sharp, clean heat ideal for hot sauces and spice mixes.",
-    loadingCapacity: "12 MT in 40ft container."
+    loadingCapacity: "12 MT in 40ft container.",
+    specs: {
+      "botanical-name": {
+        title: "Botanical Name",
+        icon: "eco",
+        values: ["Capsicum Frutescens"]
+      },
+      "chilli-type": {
+        title: "Chilli Type",
+        icon: "category",
+        values: ["With Stem / Stemless"]
+      },
+      "style": {
+        title: "Style",
+        icon: "style",
+        values: ["Sun Dried"]
+      },
+      "speciality": {
+        title: "Speciality",
+        icon: "verified",
+        values: ["No Artificial Color, Rich Aroma, Free from Contamination"]
+      },
+      "moisture": {
+        title: "Moisture",
+        icon: "opacity",
+        values: ["Less Than 12% maximum"]
+      },
+      "packaging-details": {
+        title: "Packaging Details",
+        icon: "inventory_2",
+        values: ["10, 15, 20 & 25 kg PP Sack / Jute Bag"]
+      }
+    }
   },
   {
-    name: "Ghost Pepper - Bhut Jolokia",
+    name: "Bhut Jolokia / Ghost Pepper",
     tag: "Whole Chillies",
     image: "/images/Product%20Images/Indian%20Spices/Ghost%20Pepper%20-%20Bhut%20Jolokia%20Chilli.jpg",
     description: "One of the world's hottest chillies, offering slow-building extreme heat and distinctive sweet, fruity aroma. Clean and sortex quality.",
-    loadingCapacity: "10 - 12 MT in 40ft container."
+    loadingCapacity: "10 - 12 MT in 40ft container.",
+    specs: {
+      "botanical-name": {
+        title: "Botanical Name",
+        icon: "eco",
+        values: ["Capsicum Frutescens"]
+      },
+      "chilli-type": {
+        title: "Chilli Type",
+        icon: "category",
+        values: ["Oven / Smoke Dried (Pods / Flakes / Powder)"]
+      },
+      "style": {
+        title: "Style",
+        icon: "style",
+        values: ["Oven Dried & Smoke Dried"]
+      },
+      "speciality": {
+        title: "Speciality",
+        icon: "verified",
+        values: ["No Artificial Color, Rich Aroma, Free from Contamination"]
+      },
+      "moisture": {
+        title: "Moisture",
+        icon: "opacity",
+        values: ["Less Than 11% maximum"]
+      },
+      "packaging-details": {
+        title: "Packaging Details",
+        icon: "inventory_2",
+        values: ["10, 15, 20 & 25 kg PP Sack / Jute Bag"]
+      }
+    }
   },
   {
-    name: "S9 - Mundu - Round Chilli",
+    name: "S9 / Mundu / Round / Ramnad Chilli",
     tag: "Whole Chillies",
     image: "/images/Product%20Images/Indian%20Spices/S9%20-%20Mundu%20-%20Round%20Chilli.jpg",
     description: "Distinctive spherical round dry chilli with moderate heat and unique flavor profile. Highly prized for south Indian cooking and oil extraction.",
-    loadingCapacity: "14 MT in 40ft container."
+    loadingCapacity: "14 MT in 40ft container.",
+    specs: {
+      "botanical-name": {
+        title: "Botanical Name",
+        icon: "eco",
+        values: ["Capsicum Frutescens"]
+      },
+      "chilli-type": {
+        title: "Chilli Type",
+        icon: "category",
+        values: ["With Stem"]
+      },
+      "style": {
+        title: "Style",
+        icon: "style",
+        values: ["Sun Dried"]
+      },
+      "speciality": {
+        title: "Speciality",
+        icon: "verified",
+        values: ["No Artificial Color, Rich Aroma, Free from Contamination"]
+      },
+      "moisture": {
+        title: "Moisture",
+        icon: "opacity",
+        values: ["Less Than 12% Maximum"]
+      },
+      "packaging-details": {
+        title: "Packaging Details",
+        icon: "inventory_2",
+        values: ["10, 15, 20 & 25 kg PP Sack / Jute Bag"]
+      }
+    }
   },
   {
-    name: "Tomato - Chapata Chilli",
+    name: "Warangal Tomato / Chapata Chilli",
     tag: "Whole Chillies",
     image: "/images/Product%20Images/Indian%20Spices/Tomato%20-%20Chapata%20Chilli.jpg",
     description: "Deep red, round, low-heat dry chilli mimicking the color of tomatoes. Excellent for imparting vibrant natural red color and mild heat to food products.",
-    loadingCapacity: "14 MT in 40ft container."
+    loadingCapacity: "14 MT in 40ft container.",
+    specs: {
+      "botanical-name": {
+        title: "Botanical Name",
+        icon: "eco",
+        values: ["Capsicum Frutescens"]
+      },
+      "chilli-type": {
+        title: "Chilli Type",
+        icon: "category",
+        values: ["With Stem"]
+      },
+      "style": {
+        title: "Style",
+        icon: "style",
+        values: ["Sun Dried"]
+      },
+      "speciality": {
+        title: "Speciality",
+        icon: "verified",
+        values: ["No Artificial Color, Rich Aroma, Free from Contamination"]
+      },
+      "moisture": {
+        title: "Moisture",
+        icon: "opacity",
+        values: ["Less Than 12% maximum"]
+      },
+      "packaging-details": {
+        title: "Packaging Details",
+        icon: "inventory_2",
+        values: ["10, 15, 20 & 25 kg PP Sack / Jute Bag"]
+      }
+    }
   },
   {
     name: "Chilli Powder",
     tag: "Powder",
     image: "/images/Product%20Images/Indian%20Spices/Chilli%20Powder.png",
     description: "Premium quality ground red chilli powder, milled under low-temperature conditions to preserve essential oils, color value (ASTA), and heat levels.",
-    loadingCapacity: "18 - 20 MT in 20ft container."
+    loadingCapacity: "18 - 20 MT in 20ft container.",
+    noSpecSheet: true
   },
   {
     name: "Chilli Flakes",
     tag: "Flakes",
     image: "/images/Product%20Images/Indian%20Spices/Chilli%20Flakes.png",
     description: "Crushed dry red chilli flakes, uniform cut size. Free from dust and excessive loose seed count. Perfect for pizza toppings, salads, and culinary garnishing.",
-    loadingCapacity: "13 - 14 MT in 20ft container."
+    loadingCapacity: "13 - 14 MT in 20ft container.",
+    noSpecSheet: true
   }
 ];
 
