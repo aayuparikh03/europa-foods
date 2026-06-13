@@ -60,7 +60,11 @@ export default function Navbar({ variant = "light" }) {
                 alt="Europa Foods Logo"
                 className="h-10 w-auto object-contain"
               />
-              <span>Europa Foods</span>
+              <img
+                src="/images/Europa Foods Text Logo.png"
+                alt="Europa Foods"
+                className={`h-8 w-auto object-contain ${isDark ? "brightness-0 invert" : ""}`}
+              />
             </Link>
           </div>
 

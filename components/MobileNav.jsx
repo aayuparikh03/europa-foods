@@ -63,9 +63,11 @@ export default function MobileNav({ open, onClose }) {
               alt="Europa Foods Logo"
               className="h-8 w-auto object-contain brightness-0 invert"
             />
-            <span className="font-headline-md text-headline-md font-serif text-champagne-gold">
-              Europa Foods
-            </span>
+            <img
+              src="/images/Europa Foods Text Logo.png"
+              alt="Europa Foods"
+              className="h-6 w-auto object-contain brightness-0 invert"
+            />
           </div>
           <button
             onClick={onClose}

@@ -11,9 +11,11 @@ export default function Footer() {
               alt="Europa Foods Logo"
               className="h-10 w-auto object-contain brightness-0 invert"
             />
-            <span className="font-headline-lg text-headline-lg text-champagne-gold font-serif">
-              Europa Foods
-            </span>
+            <img
+              src="/images/Europa Foods Text Logo.png"
+              alt="Europa Foods"
+              className="h-8 w-auto object-contain brightness-0 invert"
+            />
           </div>
           <p className="text-on-tertiary-container mb-6">
             Premium Dehydrated Foods &amp; Spices for the Global Market.
