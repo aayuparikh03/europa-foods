@@ -33,7 +33,7 @@ export default function QualityPage() {
         {/* Certifications Showcase */}
         <section className="bg-stark-white py-section-gap-mobile md:py-section-gap border-y border-outline-variant/10">
           <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div className="mb-16 md:mb-24 md:pl-20 border-l-2 border-champagne-gold">
+            <div className="mb-16 md:mb-24 pl-6 md:pl-20 border-l-2 border-champagne-gold">
               <h2 className="font-headline-xl text-headline-xl text-deep-navy mb-4">Global Credentials.</h2>
               <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">Recognized by the world&apos;s most stringent regulatory bodies, our certifications are a testament to our unwavering dedication to food safety and premium quality.</p>
             </div>
