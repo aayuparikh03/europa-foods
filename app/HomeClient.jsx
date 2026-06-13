@@ -17,7 +17,7 @@ export default function HomeClient() {
             <div className="inline-block px-4 py-1 mb-6 bg-champagne-gold/10 border border-champagne-gold/30 rounded font-label-caps text-label-caps text-champagne-gold tracking-widest uppercase">
               TRUSTED BY BUYERS ACROSS 15+ COUNTRIES
             </div>
-            <h1 className="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg mb-6 text-stark-white leading-tight">
+            <h1 className="font-display-lg-mobile text-[32px] sm:text-[40px] md:text-display-lg mb-6 text-stark-white leading-tight">
               Premium Dehydrated Foods &amp; Spices - Sourced From Nature, Delivered to the World
             </h1>
             <p className="font-body-lg text-body-lg text-surface-variant mb-10 max-w-2xl">

@@ -58,12 +58,12 @@ export default function Navbar({ variant = "light" }) {
               <img
                 src="/images/Europa Logo Without bg.png"
                 alt="Europa Foods Logo"
-                className="h-10 w-auto object-contain"
+                className="h-11 md:h-12 w-auto object-contain"
               />
               <img
                 src="/images/Europa Foods Text Logo.png"
                 alt="Europa Foods"
-                className={`h-8 w-auto object-contain ${isDark ? "brightness-0 invert" : ""}`}
+                className={`h-9 md:h-10 w-auto object-contain ${isDark ? "brightness-0 invert" : ""}`}
               />
             </Link>
           </div>

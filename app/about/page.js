@@ -23,14 +23,14 @@ export default function AboutPage() {
               alt="Assorted premium dehydrated vegetables and spices"
             />
             {/* Deep Navy Gradient Overlay for legibility and cinematic feel */}
-            <div className="absolute inset-0 bg-deep-navy/20 md:bg-gradient-to-r md:from-deep-navy/65 md:via-deep-navy/30 md:to-transparent"></div>
+            <div className="absolute inset-0 bg-deep-navy/55 md:bg-gradient-to-r md:from-deep-navy/65 md:via-deep-navy/30 md:to-transparent"></div>
             {/* Content Alignment (Left Anchor) */}
-            <div className="relative z-10 w-full md:w-1/2 h-full flex flex-col justify-center items-center text-center md:items-start md:text-left px-8 md:px-16">
+            <div className="relative z-10 w-full md:w-1/2 h-full flex flex-col justify-center items-center text-center md:items-start md:text-left px-6 md:px-16">
               <span className="font-label-caps text-label-caps text-champagne-gold uppercase tracking-widest mb-6 block">Our Heritage</span>
-              <h1 className="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-stark-white mb-6 leading-tight">
+              <h1 className="font-display-lg-mobile text-[32px] sm:text-[40px] md:text-display-lg text-stark-white mb-6 leading-tight">
                 12 Years of Uncompromising Quality.
               </h1>
-              <p className="font-body-lg text-body-lg text-surface-container-high max-w-md">
+              <p className="font-body-lg text-base sm:text-lg md:text-body-lg text-stark-white/95 max-w-md font-medium">
                 Pioneering the art of vegetable dehydration. We blend European agricultural heritage with cutting-edge technology to deliver ingredients of exceptional purity.
               </p>
             </div>
