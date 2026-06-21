@@ -28,10 +28,10 @@ export default function AboutPage() {
             <div className="relative z-10 w-full md:w-1/2 h-full flex flex-col justify-center items-center text-center md:items-start md:text-left px-6 md:px-16">
               <span className="font-label-caps text-label-caps text-champagne-gold uppercase tracking-widest mb-6 block">Our Heritage</span>
               <h1 className="font-display-lg-mobile text-[32px] sm:text-[40px] md:text-display-lg text-stark-white mb-6 leading-tight">
-                12 Years of Uncompromising Quality.
+                6 Years of Uncompromising Quality.
               </h1>
               <p className="font-body-lg text-base sm:text-lg md:text-body-lg text-stark-white/95 max-w-md font-medium">
-                Pioneering the art of vegetable dehydration. We blend European agricultural heritage with cutting-edge technology to deliver ingredients of exceptional purity.
+                Pioneering the art of vegetable dehydration. We blend Indian agricultural heritage with cutting-edge technology to deliver ingredients of exceptional purity.
               </p>
             </div>
           </div>
@@ -42,7 +42,7 @@ export default function AboutPage() {
           <div className="max-w-3xl mx-auto text-center">
             <span className="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-widest mb-8 block">Our Mission</span>
             <p className="text-base md:font-headline-lg md:text-headline-lg text-deep-navy leading-relaxed">
-              &quot;To elevate global food manufacturing by supplying the finest, most rigorously quality-controlled dehydrated European produce, preserving nature&apos;s essence from field to facility.&quot;
+              &quot;To elevate global food manufacturing by supplying the finest, most rigorously quality-controlled dehydrated Indian produce, preserving nature&apos;s essence from field to facility.&quot;
             </p>
           </div>
         </section>
@@ -65,16 +65,16 @@ export default function AboutPage() {
                 {/* Timeline Item */}
                 <div className="relative">
                   <div className="absolute -left-[53px] top-2 w-2 h-2 bg-champagne-gold rounded-none hidden md:block"></div>
-                  <h3 className="font-stat-value text-stat-value text-champagne-gold mb-2">2014</h3>
+                  <h3 className="font-stat-value text-stat-value text-champagne-gold mb-2">2019</h3>
                   <h4 className="font-headline-md text-headline-md text-deep-navy mb-3">The Foundation</h4>
                   <p className="font-body-md text-body-md text-on-surface-variant max-w-xl">
-                    Europa Foods is established in the heart of the European agricultural belt, focusing initially on premium air-dried onions and garlic for regional markets.
+                    Europa Foods is established in the heart of the Indian agricultural belt, focusing initially on premium air-dried onions and garlic for regional markets.
                   </p>
                 </div>
                 {/* Timeline Item */}
                 <div className="relative">
                   <div className="absolute -left-[53px] top-2 w-2 h-2 bg-champagne-gold rounded-none hidden md:block"></div>
-                  <h3 className="font-stat-value text-stat-value text-champagne-gold mb-2">2018</h3>
+                  <h3 className="font-stat-value text-stat-value text-champagne-gold mb-2">2021</h3>
                   <h4 className="font-headline-md text-headline-md text-deep-navy mb-3">Technological Leap</h4>
                   <p className="font-body-md text-body-md text-on-surface-variant max-w-xl">
                     Implementation of advanced closed-loop dehydration systems, significantly increasing yield while preserving superior flavor profiles and essential nutrients.
@@ -83,7 +83,7 @@ export default function AboutPage() {
                 {/* Timeline Item */}
                 <div className="relative">
                   <div className="absolute -left-[53px] top-2 w-2 h-2 bg-champagne-gold rounded-none hidden md:block"></div>
-                  <h3 className="font-stat-value text-stat-value text-champagne-gold mb-2">2020</h3>
+                  <h3 className="font-stat-value text-stat-value text-champagne-gold mb-2">2023</h3>
                   <h4 className="font-headline-md text-headline-md text-deep-navy mb-3">Global Expansion</h4>
                   <p className="font-body-md text-body-md text-on-surface-variant max-w-xl">
                     Reaching 50+ countries. Establishing stringent, multi-tiered quality control protocols that set a new benchmark in the B2B ingredient sector.

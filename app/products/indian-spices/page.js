@@ -36,7 +36,7 @@ const products = [
         values: ["Less Than 12% Maximum"]
       },
       "packaging-details": {
-        title: "Packaging Details",
+        title: "Standard/Customised Packaging",
         icon: "inventory_2",
         values: ["10, 15, 20 & 25 kg PP Sack / Jute Bag"]
       }
@@ -75,7 +75,7 @@ const products = [
         values: ["Less Than 12% maximum"]
       },
       "packaging-details": {
-        title: "Packaging Details",
+        title: "Standard/Customised Packaging",
         icon: "inventory_2",
         values: ["10, 15, 20 & 25 kg PP Sack / Jute Bag"]
       }
@@ -114,7 +114,7 @@ const products = [
         values: ["Less Than 12% maximum"]
       },
       "packaging-details": {
-        title: "Packaging Details",
+        title: "Standard/Customised Packaging",
         icon: "inventory_2",
         values: ["10, 15, 20 & 25 kg PP Sack / Jute Bag"]
       }
@@ -153,7 +153,7 @@ const products = [
         values: ["Less Than 11% maximum"]
       },
       "packaging-details": {
-        title: "Packaging Details",
+        title: "Standard/Customised Packaging",
         icon: "inventory_2",
         values: ["10, 15, 20 & 25 kg PP Sack / Jute Bag"]
       }
@@ -192,7 +192,7 @@ const products = [
         values: ["Less Than 12% Maximum"]
       },
       "packaging-details": {
-        title: "Packaging Details",
+        title: "Standard/Customised Packaging",
         icon: "inventory_2",
         values: ["10, 15, 20 & 25 kg PP Sack / Jute Bag"]
       }
@@ -231,7 +231,7 @@ const products = [
         values: ["Less Than 12% maximum"]
       },
       "packaging-details": {
-        title: "Packaging Details",
+        title: "Standard/Customised Packaging",
         icon: "inventory_2",
         values: ["10, 15, 20 & 25 kg PP Sack / Jute Bag"]
       }
@@ -264,7 +264,7 @@ const theme = {
 
 const customSpecs = {
   "packaging-details": {
-    title: "Packaging Details",
+    title: "Standard/Customised Packaging",
     icon: "inventory_2",
     values: [
       "Primary Barrier: Double food-grade HDPE inner bags to prevent moisture and aroma loss.",

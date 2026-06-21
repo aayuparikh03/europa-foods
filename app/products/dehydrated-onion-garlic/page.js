@@ -64,7 +64,7 @@ const categoriesData = {
         id: "white-onion-minced",
         name: "White Onion Minced",
         image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20WHITE%20ONION/White%20Onion%20Minced.jpeg",
-        description: "Generally, these Dehydrated White Onion Minced are prepared from fresh onion bulbs. Available in A, B and Commercial Grades. Excellent for adding texture and flavor to soups and sauces.",
+        description: "Generally, these Dehydrated White Onion Minced are prepared from fresh onion bulbs. Available in 1-3MM, 2-3 MM, with A, B and Commercial Grades. Excellent for adding texture and flavor to soups and sauces.",
         customSpecs: {
           packingSize: "Two poly bag of 20/25 kgs net covered with Russian paper bag, Box Or aluminium foil packing on request",
           loadingCapacity: "For Onion minced 12 MT in 20ft FCL & for 40ft FCL 24 MT (+/- 10%)",
@@ -86,7 +86,7 @@ const categoriesData = {
         id: "white-onion-chopped",
         name: "White Onion Chopped",
         image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20WHITE%20ONION/White%20Onion%20Chopped.jpeg",
-        description: "Generally, these Dehydrated White Onion Chopped are free-flowing and sorted. Available in A, B and Commercial Grades. Used extensively in ready-to-eat foods, canned items, and dry soup mixes.",
+        description: "Generally, these Dehydrated White Onion Chopped are free-flowing and sorted. Available in 6-8 MM, 3-6 MM, with A, B and Commercial Grades. Used extensively in ready-to-eat foods, canned items, and dry soup mixes.",
         customSpecs: {
           packingSize: "Two poly bag of 20/25 kgs net covered with Russian paper bag OR Box",
           loadingCapacity: "For Onion chopped 10 MT in 20ft FCL & for 40ft FCL 20MT (+/- 10%)",
@@ -156,14 +156,14 @@ const categoriesData = {
         id: "red-onion-minced",
         name: "Red Onion Minced",
         image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20RED%20ONION/Red%20Onion%20Minced.jpeg",
-        description: "Generally, these Dehydrated Red Onion Minced are dried to keep their essential oils intact. Available in A, B and Commercial Grades, providing a sweet-sharp flavor to culinary products.",
+        description: "Generally, these Dehydrated Red Onion Minced are dried to keep their essential oils intact. Available in 1-3MM, 2-3 MM, with A, B and Commercial Grades, providing a sweet-sharp flavor to culinary products.",
         loadingCapacity: "13 - 14 MT in 20ft container."
       },
       {
         id: "red-onion-chopped",
         name: "Red Onion Chopped",
         image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20RED%20ONION/Red%20Onion%20Chopped.jpeg",
-        description: "Generally, these Dehydrated Red Onion Chopped are perfect for bulk food manufacturers. Available in A, B and Commercial Grades. Excellent reconstitution properties for instant food items.",
+        description: "Generally, these Dehydrated Red Onion Chopped are perfect for bulk food manufacturers. Available in 6-8 MM, 3-6 MM, with A, B and Commercial Grades. Excellent reconstitution properties for instant food items.",
         loadingCapacity: "13 - 14 MT in 20ft container."
       },
       {
@@ -199,14 +199,14 @@ const categoriesData = {
         id: "pink-onion-minced",
         name: "Pink Onion Minced",
         image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20PINK%20ONION/Pink%20Onion%20Minced.jpeg",
-        description: "Generally, these Dehydrated Pink Onion Minced are made under state-of-the-art dehydration standards. Available in A, B and Commercial Grades, adding mild sweet-onion taste to seasoning lines.",
+        description: "Generally, these Dehydrated Pink Onion Minced are made under state-of-the-art dehydration standards. Available in 1-3MM, 2-3 MM, with A, B and Commercial Grades, adding mild sweet-onion taste to seasoning lines.",
         loadingCapacity: "13 - 14 MT in 20ft container."
       },
       {
         id: "pink-onion-chopped",
         name: "Pink Onion Chopped",
         image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20PINK%20ONION/Pink%20Onion%20Chopped.jpeg",
-        description: "Generally, these Dehydrated Pink Onion Chopped are ideal for salad dressings and pickle industries. Available in A, B and Commercial Grades. Assured zero foreign matter.",
+        description: "Generally, these Dehydrated Pink Onion Chopped are ideal for salad dressings and pickle industries. Available in 6-8 MM, 3-6 MM, with A, B and Commercial Grades. Assured zero foreign matter.",
         loadingCapacity: "13 - 14 MT in 20ft container."
       },
       {
@@ -242,7 +242,7 @@ const categoriesData = {
         id: "garlic-chopped",
         name: "Garlic Chopped",
         image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20GARLIC/Garlic%20Chopped.jpeg",
-        description: "Generally, these Dehydrated Garlic Chopped offer convenient kitchen prep for bulk food service. Available in A, B and Commercial Grades, adding fresh garlic texture and taste upon hydration.",
+        description: "Generally, these Dehydrated Garlic Chopped offer convenient kitchen prep for bulk food service. Available in 6-8 MM, 3-6 MM, with A, B and Commercial Grades, adding fresh garlic texture and taste upon hydration.",
         loadingCapacity: "14 MT in 20ft container."
       },
       {
@@ -320,7 +320,7 @@ function DehydratedOnionGarlicContent() {
       const cs = prod.customSpecs;
       return {
         "packing-size": {
-          title: "Packing size",
+          title: "Standard/Customised Packaging",
           icon: "inventory_2",
           content: (
             <ul className="space-y-3 text-slate-600 text-xs md:text-sm">
@@ -396,7 +396,7 @@ function DehydratedOnionGarlicContent() {
 
     return {
       "packing-size": {
-        title: "Packing size",
+        title: "Standard/Customised Packaging",
         icon: "inventory_2",
         content: (
           <ul className="space-y-3 text-slate-600 text-xs md:text-sm">

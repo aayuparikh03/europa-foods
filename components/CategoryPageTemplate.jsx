@@ -97,7 +97,7 @@ function CategoryPageContent({
 
     return {
       "packing-size": {
-        title: "Packing size",
+        title: "Standard/Customised Packaging",
         icon: "inventory_2",
         content: (
           <ul className="space-y-3 text-slate-600 text-xs md:text-sm">

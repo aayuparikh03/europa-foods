@@ -21,7 +21,7 @@ export default function HomeClient() {
               Premium Dehydrated Foods &amp; Spices - Sourced From Nature, Delivered to the World
             </h1>
             <p className="font-body-lg text-body-lg text-surface-variant mb-10 max-w-2xl">
-              12+ years of expertise. Zero chemicals. International certifications. Built for global trade.
+              6+ years of expertise. Zero chemicals. International certifications. Built for global trade.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -44,7 +44,7 @@ export default function HomeClient() {
           <div className="max-w-container-max mx-auto px-margin-desktop">
             <div className="bg-deep-navy/90 backdrop-blur-md border border-outline-variant/20 rounded p-8 flex justify-between items-center shadow-2xl">
               <div className="text-center px-8 border-r border-outline-variant/20 last:border-0 flex-1">
-                <div className="font-stat-value text-stat-value text-champagne-gold mb-2">12+</div>
+                <div className="font-stat-value text-stat-value text-champagne-gold mb-2">6+</div>
                 <div className="font-label-caps text-label-caps text-surface-variant uppercase tracking-widest">Years Experience</div>
               </div>
               <div className="text-center px-8 border-r border-outline-variant/20 last:border-0 flex-1">
@@ -68,7 +68,7 @@ export default function HomeClient() {
                 <div className="absolute inset-0 border border-deep-navy/10 rounded mix-blend-multiply pointer-events-none"></div>
               </div>
               <div>
-                <h2 className="font-headline-xl text-headline-xl text-deep-navy mb-8">12 Years of Excellence</h2>
+                <h2 className="font-headline-xl text-headline-xl text-deep-navy mb-8">6 Years of Excellence</h2>
                 <ul className="space-y-6 mb-10">
                   <li className="flex items-start">
                     <span className="material-symbols-outlined text-champagne-gold mr-4 text-2xl" style={{ fontVariationSettings: "'FILL' 1" }}>check_circle</span>
@@ -77,13 +77,7 @@ export default function HomeClient() {
                       <p className="text-on-surface-variant mt-1">Working with a group of farmers to apply integrated pest management systems.</p>
                     </div>
                   </li>
-                  <li className="flex items-start">
-                    <span className="material-symbols-outlined text-champagne-gold mr-4 text-2xl" style={{ fontVariationSettings: "'FILL' 1" }}>check_circle</span>
-                    <div>
-                      <h3 className="font-body-lg text-body-lg font-semibold text-deep-navy">Zero Sulphites/Chlorates</h3>
-                      <p className="text-on-surface-variant mt-1">Pure, unadulterated natural ingredients.</p>
-                    </div>
-                  </li>
+
                   <li className="flex items-start">
                     <span className="material-symbols-outlined text-champagne-gold mr-4 text-2xl" style={{ fontVariationSettings: "'FILL' 1" }}>check_circle</span>
                     <div>

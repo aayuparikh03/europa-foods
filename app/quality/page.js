@@ -37,7 +37,7 @@ export default function QualityPage() {
               <h2 className="font-headline-xl text-headline-xl text-deep-navy mb-4">Global Credentials.</h2>
               <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">Recognized by the world&apos;s most stringent regulatory bodies, our certifications are a testament to our unwavering dedication to food safety and premium quality.</p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
               {/* Certificate 1 */}
               <div className="bg-warm-cream p-8 border border-outline-variant/20 flex flex-col items-center text-center group hover:border-champagne-gold/50 transition-colors">
                 <div className="w-32 h-40 bg-stark-white mb-6 border border-outline-variant/10 shadow-sm relative overflow-hidden">
@@ -61,6 +61,14 @@ export default function QualityPage() {
                 </div>
                 <h3 className="font-headline-md text-headline-md text-deep-navy mb-2">APEDA Approved</h3>
                 <p className="font-body-md text-body-md text-on-surface-variant">Authorized by the Agricultural and Processed Food Products Export Development Authority.</p>
+              </div>
+              {/* Certificate 4 */}
+              <div className="bg-warm-cream p-8 border border-outline-variant/20 flex flex-col items-center text-center group hover:border-champagne-gold/50 transition-colors">
+                <div className="w-32 h-40 bg-stark-white mb-6 border border-outline-variant/10 shadow-sm relative overflow-hidden">
+                  <img alt="RCMC Certificate" className="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500" src="/images/rcmc.png" />
+                </div>
+                <h3 className="font-headline-md text-headline-md text-deep-navy mb-2">RCMC Certified</h3>
+                <p className="font-body-md text-body-md text-on-surface-variant">Recognized by the Export Promotion Council under the Registration-Cum-Membership Certificate (RCMC) for authorized export operations.</p>
               </div>
             </div>
           </div>
