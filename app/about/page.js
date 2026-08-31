@@ -54,7 +54,7 @@ export default function AboutPage() {
             <div className="w-full md:w-1/3 md:pr-12 md:sticky md:top-32 self-start mb-12 md:mb-0">
               <h2 className="font-headline-xl text-headline-xl text-deep-navy mb-4">Our Journey</h2>
               <p className="font-body-md text-body-md text-on-surface-variant">
-                A continuous pursuit of excellence across three decades. From a single regional facility to a global leader in premium dehydrated ingredients.
+                A continuous pursuit of excellence across 6 years. From a single regional facility to a global leader in premium dehydrated ingredients.
               </p>
             </div>
             {/* Timeline Col */}
