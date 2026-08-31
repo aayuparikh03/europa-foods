@@ -248,7 +248,7 @@ function CategoryPageContent({
           {/* Centered White Card Block with Theme Border */}
           <div className={`absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 bg-stark-white px-12 py-5.5 shadow-[0_10px_30px_-5px_rgba(13,27,42,0.15)] border rounded-[8px] min-w-[290px] md:min-w-[440px] text-center z-20 ${theme.accentBorder}`}>
             <span className={`font-label-caps text-[9px] font-bold tracking-widest uppercase mb-1 block ${theme.accentText}`}>
-              Europa Foods Catalog
+              Europa Food Ingredients Catalog
             </span>
             <h1 className="font-display-lg text-deep-navy font-bold text-lg md:text-xl uppercase tracking-wider">
               {viewTitle}

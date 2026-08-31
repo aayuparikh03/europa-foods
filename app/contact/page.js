@@ -67,7 +67,7 @@ export default function ContactPage() {
               <div>
                 <h1 className="font-headline-xl text-headline-xl mb-6 text-champagne-gold">Get in Touch</h1>
                 <p className="font-body-lg text-body-lg text-on-primary-container mb-12 max-w-md">
-                  Connect with our team to discuss premium Europa Foods LLP. We offer bespoke solutions for global partners.
+                  Connect with our team to discuss premium Europa Food Ingredients LLP products. We offer bespoke solutions for global partners.
                 </p>
                 <div className="space-y-8">
                   <div className="flex items-start gap-4">
@@ -75,7 +75,7 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-label-caps text-label-caps text-champagne-gold mb-2">HEADQUARTERS</h3>
                       <p className="font-body-md text-body-md text-stark-white">
-                        Europa Foods LLP<br />
+                        Europa Food Ingredients LLP<br />
                         Mahuva, Gujarat, India<br />
                         Global Operations Center
                       </p>

@@ -60,12 +60,12 @@ export default function MobileNav({ open, onClose }) {
           <div className="flex items-center gap-2">
             <img
               src="/images/Europa Logo Without bg.png"
-              alt="Europa Foods Logo"
+              alt="Europa Food Ingredients Logo"
               className="h-8 w-auto object-contain brightness-0 invert"
             />
             <img
               src="/images/Europa Foods Text Logo.png"
-              alt="Europa Foods"
+              alt="Europa Food Ingredients"
               className="h-6 w-auto object-contain brightness-0 invert"
             />
           </div>

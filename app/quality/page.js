@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata = {
-  title: "Quality & Certifications - Europa Foods",
+  title: "Quality & Certifications - Europa Food Ingredients LLP",
   description: "Our commitment to excellence is verified at every stage. Uncompromising standards, global credentials, and farm-to-export traceability.",
 };
 

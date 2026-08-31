@@ -3,8 +3,8 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata = {
-  title: "Europa Foods - About Us",
-  description: "Learn about Europa Foods, our 30-year legacy of quality, mission, timeline, and leadership team.",
+  title: "Europa Food Ingredients LLP - About Us",
+  description: "Learn about Europa Food Ingredients LLP, our 30-year legacy of quality, mission, timeline, and leadership team.",
 };
 
 export default function AboutPage() {
@@ -68,7 +68,7 @@ export default function AboutPage() {
                   <h3 className="font-stat-value text-stat-value text-champagne-gold mb-2">2019</h3>
                   <h4 className="font-headline-md text-headline-md text-deep-navy mb-3">The Foundation</h4>
                   <p className="font-body-md text-body-md text-on-surface-variant max-w-xl">
-                    Europa Foods is established in the heart of the Indian agricultural belt, focusing initially on premium air-dried onions and garlic for regional markets.
+                    Sister concern was established in the heart of the Indian agricultural belt, focusing initially on premium air-dried onions and garlic for regional markets.
                   </p>
                 </div>
                 {/* Timeline Item */}
@@ -83,10 +83,10 @@ export default function AboutPage() {
                 {/* Timeline Item */}
                 <div className="relative">
                   <div className="absolute -left-[53px] top-2 w-2 h-2 bg-champagne-gold rounded-none hidden md:block"></div>
-                  <h3 className="font-stat-value text-stat-value text-champagne-gold mb-2">2023</h3>
+                  <h3 className="font-stat-value text-stat-value text-champagne-gold mb-2">2026</h3>
                   <h4 className="font-headline-md text-headline-md text-deep-navy mb-3">Global Expansion</h4>
                   <p className="font-body-md text-body-md text-on-surface-variant max-w-xl">
-                    Reaching 50+ countries. Establishing stringent, multi-tiered quality control protocols that set a new benchmark in the B2B ingredient sector.
+                    Europa Food Ingredients LLP was established with the vision of reaching global markets, establishing stringent, multi-tiered quality control protocols that set a new benchmark in the B2B ingredient sector.
                   </p>
                 </div>
               </div>

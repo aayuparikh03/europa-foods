@@ -12,15 +12,15 @@ const categoriesData = {
     id: "white-onion",
     name: "Dehydrated White Onion",
     categoryLabel: "DEHYDRATED WHITE ONION",
-    image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20WHITE%20ONION/Dehydrated%20White%20onion%20-%20CATEGORY%20IMAGE.jpeg",
+    image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20WHITE%20ONION/white%20onion%20family.png",
     subproducts: [
       {
         id: "white-onion-powder",
         name: "White Onion Powder",
-        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20WHITE%20ONION/White%20Onion%20Powder.jpeg",
+        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20WHITE%20ONION/white%20onion%20powder.png",
         description: "Generally, these Dehydrated White Onions Powder available in standard size of 80-100 mash and 100-120 mash with A, B and Commercial Grades. Our products are assured to be unwanted burnt particles, also free from impurities and foreign materials.",
         customSpecs: {
-          packingSize: "Two poly bag of 20/25 kgs net covered with Russian paper bag, Box Or aluminium foil packing on request",
+          packingSize: "Two poly bag of 20/25 kgs net covered with Russian paper bag, Box packing on request",
           loadingCapacity: "For Onion powder 14 MT in 20ft FCL & for 40ft FCL 27.5 MT (+/- 10%)",
           quality: {
             color: "Light Creamish White",
@@ -41,10 +41,10 @@ const categoriesData = {
       {
         id: "white-onion-granules",
         name: "White Onion Granules",
-        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20WHITE%20ONION/White%20Onion%20Granules.jpeg",
+        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20WHITE%20ONION/white%20granules.png",
         description: "Generally, these Dehydrated White Onion Granules are processed under hygienic conditions. Available in A, B and Commercial Grades, ideal for seasonings, salad dressings, and processed food mixes.",
         customSpecs: {
-          packingSize: "Two poly bag of 20/25 kgs net covered with Russian paper bag, Box Or aluminium foil packing on request",
+          packingSize: "Two poly bag of 20/25 kgs net covered with Russian paper bag, Box packing on request",
           loadingCapacity: "For Onion granules 14 MT in 20ft FCL & for 40ft FCL 27.5 MT (+/- 10%)",
           quality: {
             color: "Light Creamish White",
@@ -63,10 +63,10 @@ const categoriesData = {
       {
         id: "white-onion-minced",
         name: "White Onion Minced",
-        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20WHITE%20ONION/White%20Onion%20Minced.jpeg",
+        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20WHITE%20ONION/white%20onion%20minced.png",
         description: "Generally, these Dehydrated White Onion Minced are prepared from fresh onion bulbs. Available in 1-3MM, 2-3 MM, with A, B and Commercial Grades. Excellent for adding texture and flavor to soups and sauces.",
         customSpecs: {
-          packingSize: "Two poly bag of 20/25 kgs net covered with Russian paper bag, Box Or aluminium foil packing on request",
+          packingSize: "Two poly bag of 20/25 kgs net covered with Russian paper bag, Box packing on request",
           loadingCapacity: "For Onion minced 12 MT in 20ft FCL & for 40ft FCL 24 MT (+/- 10%)",
           quality: {
             color: "Light Creamish White",
@@ -85,7 +85,7 @@ const categoriesData = {
       {
         id: "white-onion-chopped",
         name: "White Onion Chopped",
-        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20WHITE%20ONION/White%20Onion%20Chopped.jpeg",
+        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20WHITE%20ONION/white%20onion%20chopped.png",
         description: "Generally, these Dehydrated White Onion Chopped are free-flowing and sorted. Available in 6-8 MM, 3-6 MM, with A, B and Commercial Grades. Used extensively in ready-to-eat foods, canned items, and dry soup mixes.",
         customSpecs: {
           packingSize: "Two poly bag of 20/25 kgs net covered with Russian paper bag OR Box",
@@ -109,7 +109,7 @@ const categoriesData = {
       {
         id: "white-onion-flakes-kibbled",
         name: "White Onion Flakes / Kibbled",
-        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20WHITE%20ONION/White%20Onion%20Kibbled.jpeg",
+        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20WHITE%20ONION/white%20onion%20flakes.png",
         description: "Generally, these Dehydrated White Onion Flakes / Kibbled are made from sound, mature white onions. Available in A, B and Commercial Grades, ideal for industrial food preparation and reconstitution.",
         customSpecs: {
           packingSize: "Poly bag of 14/12 kgs net covered with Russian paper bag",
@@ -136,40 +136,40 @@ const categoriesData = {
     id: "red-onion",
     name: "Dehydrated Red Onion",
     categoryLabel: "DEHYDRATED RED ONION",
-    image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20RED%20ONION/Dehydrated%20Red%20onion%20-%20CATEGORY%20IMAGE.jpeg",
+    image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20RED%20ONION/red%20onion%20family.png",
     subproducts: [
       {
         id: "red-onion-powder",
         name: "Red Onion Powder",
-        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20RED%20ONION/Red%20Onion%20Powder.jpeg",
+        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20RED%20ONION/red%20onion%20powder.png",
         description: "Generally, these Dehydrated Red Onions Powder are processed to retain the pungent flavor and rich color of red onions. Available in A, B and Commercial Grades. Perfect for dry rubs, sauces, and seasoning mixes.",
         loadingCapacity: "15 - 17 MT in 20ft container, and up to 25 MT in 40ft container."
       },
       {
         id: "red-onion-granules",
         name: "Red Onion Granules",
-        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20RED%20ONION/Red%20Onion%20Granules.jpeg",
+        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20RED%20ONION/red%20onion%20granules.png",
         description: "Generally, these Dehydrated Red Onion Granules are manufactured under strict hygiene standards. Available in A, B and Commercial Grades, offering uniform size and color for gourmet spice blends.",
         loadingCapacity: "15 - 17 MT in 20ft container, and up to 25 MT in 40ft container."
       },
       {
         id: "red-onion-minced",
         name: "Red Onion Minced",
-        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20RED%20ONION/Red%20Onion%20Minced.jpeg",
+        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20RED%20ONION/red%20onion%20minced.png",
         description: "Generally, these Dehydrated Red Onion Minced are dried to keep their essential oils intact. Available in 1-3MM, 2-3 MM, with A, B and Commercial Grades, providing a sweet-sharp flavor to culinary products.",
         loadingCapacity: "13 - 14 MT in 20ft container."
       },
       {
         id: "red-onion-chopped",
         name: "Red Onion Chopped",
-        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20RED%20ONION/Red%20Onion%20Chopped.jpeg",
+        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20RED%20ONION/red%20onion%20chopped.png",
         description: "Generally, these Dehydrated Red Onion Chopped are perfect for bulk food manufacturers. Available in 6-8 MM, 3-6 MM, with A, B and Commercial Grades. Excellent reconstitution properties for instant food items.",
         loadingCapacity: "13 - 14 MT in 20ft container."
       },
       {
         id: "red-onion-kibbled-flakes",
         name: "Red Onion Flakes / Kibbled",
-        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20RED%20ONION/Red%20Onion%20%20Kibbled.jpeg",
+        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20RED%20ONION/red%20onion%20flakes.png",
         description: "Generally, these Dehydrated Red Onion Flakes / Kibbled are dried onion segments. Available in A, B and Commercial Grades. Sourced from choice crops for superior sweetness and spice.",
         loadingCapacity: "13 - 14 MT in 20ft container."
       }
@@ -179,40 +179,40 @@ const categoriesData = {
     id: "pink-onion",
     name: "Dehydrated Pink Onion",
     categoryLabel: "DEHYDRATED PINK ONION",
-    image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20PINK%20ONION/Dehydrate%20pink%20onion%20-%20CATEGORY%20IMAGE.jpeg",
+    image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20PINK%20ONION/pink%20onion%20family.png",
     subproducts: [
       {
         id: "pink-onion-powder",
         name: "Pink Onion Powder",
-        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20PINK%20ONION/Pink%20Onion%20Powder.jpeg",
+        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20PINK%20ONION/pink%20onion%20powder.png",
         description: "Generally, these Dehydrated Pink Onions Powder are processed from hand-selected pink onions. Available in A, B and Commercial Grades. Blends smoothly into batters, dry soups, and gravies.",
         loadingCapacity: "15 - 17 MT in 20ft container, and up to 25 MT in 40ft container."
       },
       {
         id: "pink-onion-granule",
         name: "Pink Onion Granules",
-        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20PINK%20ONION/Pink%20Onion%20Granule.jpeg",
+        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20PINK%20ONION/pink%20onion%20granules.png",
         description: "Generally, these Dehydrated Pink Onion Granules are clean and sortex quality. Available in A, B and Commercial Grades, popular in processed meats and canned food industries.",
         loadingCapacity: "15 - 17 MT in 20ft container, and up to 25 MT in 40ft container."
       },
       {
         id: "pink-onion-minced",
         name: "Pink Onion Minced",
-        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20PINK%20ONION/Pink%20Onion%20Minced.jpeg",
+        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20PINK%20ONION/pink%20onion%20minced.png",
         description: "Generally, these Dehydrated Pink Onion Minced are made under state-of-the-art dehydration standards. Available in 1-3MM, 2-3 MM, with A, B and Commercial Grades, adding mild sweet-onion taste to seasoning lines.",
         loadingCapacity: "13 - 14 MT in 20ft container."
       },
       {
         id: "pink-onion-chopped",
         name: "Pink Onion Chopped",
-        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20PINK%20ONION/Pink%20Onion%20Chopped.jpeg",
+        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20PINK%20ONION/pink%20onion%20chopped.png",
         description: "Generally, these Dehydrated Pink Onion Chopped are ideal for salad dressings and pickle industries. Available in 6-8 MM, 3-6 MM, with A, B and Commercial Grades. Assured zero foreign matter.",
         loadingCapacity: "13 - 14 MT in 20ft container."
       },
       {
         id: "pink-onion-kibble-flakes",
         name: "Pink Onion Flakes / Kibble",
-        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20PINK%20ONION/Pink%20Onion%20Kibble.jpeg",
+        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20PINK%20ONION/pink%20onion%20flakes.png",
         description: "Generally, these Dehydrated Pink Onion Flakes / Kibble are dried pink onion slices. Available in A, B and Commercial Grades, preserving natural dietary fibers and flavor compounds.",
         loadingCapacity: "13 - 14 MT in 20ft container."
       }
@@ -222,34 +222,41 @@ const categoriesData = {
     id: "garlic",
     name: "Dehydrated Garlic",
     categoryLabel: "DEHYDRATED GARLIC",
-    image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20GARLIC/Dehydrated%20garlic-%20CATEGORY%20IMAGE.jpeg",
+    image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20GARLIC/garlic%20family.png",
     subproducts: [
       {
         id: "garlic-powder",
         name: "Garlic Powder",
-        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20GARLIC/Garlic%20Powder.jpeg",
+        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20GARLIC/garlic%20powder.png",
         description: "Generally, these Dehydrated Garlic Powder are made from sound cloves of garlic. Available in A, B and Commercial Grades, processed to retain the pungent flavor and sharp aroma essential in savory formulations.",
         loadingCapacity: "17 - 18 MT in 20ft container."
       },
       {
         id: "garlic-granules",
         name: "Garlic Granules",
-        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20GARLIC/Garlic%20Granules.jpeg",
+        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20GARLIC/garlic%20granules.png",
         description: "Generally, these Dehydrated Garlic Granules are processed under advanced systems. Available in A, B and Commercial Grades. Perfect for rubs, marinades, and garlic bread toppings.",
         loadingCapacity: "17 - 18 MT in 20ft container."
       },
       {
+        id: "garlic-minced",
+        name: "Garlic Minced",
+        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20GARLIC/garlic%20minced.png",
+        description: "Generally, these Dehydrated Garlic Minced are prepared from premium garlic cloves. Available in 1-3MM, 2-3 MM, with A, B and Commercial Grades. Excellent for adding garlic flavor and texture to sauces, pickles, and dry mixes.",
+        loadingCapacity: "14 - 15 MT in 20ft container."
+      },
+      {
         id: "garlic-chopped",
         name: "Garlic Chopped",
-        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20GARLIC/Garlic%20Chopped.jpeg",
+        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20GARLIC/garlic%20chopped.png",
         description: "Generally, these Dehydrated Garlic Chopped offer convenient kitchen prep for bulk food service. Available in 6-8 MM, 3-6 MM, with A, B and Commercial Grades, adding fresh garlic texture and taste upon hydration.",
         loadingCapacity: "14 MT in 20ft container."
       },
       {
         id: "garlic-flakes",
-        name: "Garlic Flakes",
-        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20GARLIC/Garlic%20Flakes.jpeg",
-        description: "Generally, these Dehydrated Garlic Flakes are peeled garlic cloves cut into uniform slices and dried. Available in A, B and Commercial Grades, ideal for pickling, stir-fry mixes, and spice blends.",
+        name: "Garlic Cloves / Flakes",
+        image: "/images/Product%20Images/Dehydrated%20Products/DEHYDRATED%20GARLIC/garlic%20cloves.png",
+        description: "Generally, these Dehydrated Garlic Cloves / Flakes are peeled garlic cloves cut into uniform slices and dried. Available in A, B and Commercial Grades, ideal for pickling, stir-fry mixes, and spice blends.",
         loadingCapacity: "14 MT in 20ft container."
       }
     ]

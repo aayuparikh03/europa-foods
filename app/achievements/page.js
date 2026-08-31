@@ -4,7 +4,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Achievements - Europa Foods",
+  title: "Achievements - Europa Food Ingredients LLP",
   description: "Our legacy of excellence delivered across borders. Over 1.2M+ tons exported annually to 85+ markets.",
 };
 
@@ -23,11 +23,11 @@ export default function AchievementsPage() {
                 Excellence Delivered <br />Across Borders.
               </h1>
               <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mb-10">
-                For over decade, Europa Foods has established an uncompromising standard in global food export. Our achievements are measured not just in tonnage, but in the enduring partnerships we build across continents, delivering the essence of Indian culinary heritage to the world&apos;s most discerning markets.
+                For over a decade, Europa Food Ingredients LLP has established an uncompromising standard in global food export. Our achievements are measured not just in tonnage, but in the enduring partnerships we build across continents, delivering the essence of Indian culinary heritage to the world&apos;s most discerning markets.
               </p>
             </div>
             <div className="lg:col-span-5 h-[500px] w-full relative bg-warm-cream border border-outline-variant/10 overflow-hidden">
-              <img alt="Europa Foods active packaging and loading warehouse" className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-all duration-700" src="/images/warehouse.jpg" />
+              <img alt="Europa Food Ingredients LLP active packaging and loading warehouse" className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-all duration-700" src="/images/warehouse.jpg" />
               <div className="absolute inset-0 bg-gradient-to-t from-deep-navy/20 to-transparent"></div>
             </div>
           </div>

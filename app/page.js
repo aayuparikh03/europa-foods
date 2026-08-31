@@ -5,7 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import HomeClient from "./HomeClient";
 
 export const metadata = {
-  title: "Europa Foods - Premium Dehydrated Foods & Spices",
+  title: "Europa Food Ingredients LLP - Premium Dehydrated Foods & Spices",
   description:
     "30+ years of expertise. Zero chemicals. International certifications. Built for global trade.",
 };

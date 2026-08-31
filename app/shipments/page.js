@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata = {
-  title: "Shipments & Logistics - Europa Foods",
+  title: "Shipments & Logistics - Europa Food Ingredients LLP",
   description: "Global supply chain precision. Learn about our packaging standards and track your shipment status.",
 };
 

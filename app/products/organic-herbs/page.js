@@ -4,8 +4,8 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Organic Herbs - Europa Foods",
-  description: "Organic Herbs by Europa Foods — Coming Soon.",
+  title: "Organic Herbs - Europa Food Ingredients LLP",
+  description: "Organic Herbs by Europa Food Ingredients LLP — Coming Soon.",
 };
 
 export default function OrganicHerbsPage() {
@@ -35,7 +35,7 @@ export default function OrganicHerbsPage() {
         </p>
 
         <a
-          href="https://wa.me/917041226666?text=Hello,%20I%20am%20interested%20in%20Organic%20Herbs%20from%20Europa%20Foods"
+          href="https://wa.me/917041226666?text=Hello,%20I%20am%20interested%20in%20Organic%20Herbs%20from%20Europa%20Food%20Ingredients%20LLP"
           target="_blank"
           rel="noopener noreferrer"
           className="mt-6 inline-flex items-center gap-2 bg-deep-navy text-stark-white px-8 py-4 rounded-xl font-label-caps text-label-caps hover:bg-champagne-gold hover:text-deep-navy transition-colors duration-300"

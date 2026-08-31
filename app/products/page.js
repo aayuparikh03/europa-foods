@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata = {
-  title: "Products - Europa Foods",
+  title: "Products - Europa Food Ingredients LLP",
   description: "Explore our premium catalog of dehydrated vegetables and Indian spices. Exceptional quality for the global market.",
 };
 

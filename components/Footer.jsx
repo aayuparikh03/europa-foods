@@ -8,12 +8,12 @@ export default function Footer() {
           <div className="flex items-center gap-3 mb-6">
             <img
               src="/images/Europa Logo Without bg.png"
-              alt="Europa Foods Logo"
+              alt="Europa Food Ingredients Logo"
               className="h-10 w-auto object-contain brightness-0 invert"
             />
             <img
               src="/images/Europa Foods Text Logo.png"
-              alt="Europa Foods"
+              alt="Europa Food Ingredients"
               className="h-8 w-auto object-contain brightness-0 invert"
             />
           </div>
@@ -119,7 +119,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-outline-variant/10 px-margin-mobile md:px-margin-desktop py-8 max-w-container-max mx-auto text-center md:text-left text-on-tertiary-container text-sm">
-        © 2024 Europa Foods Global Exports. All rights reserved.
+        © 2024 Europa Food Ingredients LLP. All rights reserved.
       </div>
     </footer>
   );
