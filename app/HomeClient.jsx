@@ -63,7 +63,7 @@ export default function HomeClient() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
               <div className="relative group">
                 <video autoPlay loop muted playsInline className="w-full h-auto object-cover rounded shadow-lg transition-transform duration-700 group-hover:scale-[1.02]">
-                  <source src="/images/3 decades.mp4" type="video/mp4" />
+                  <source src="/images/3 decades2.mp4" type="video/mp4" />
                 </video>
                 <div className="absolute inset-0 border border-deep-navy/10 rounded mix-blend-multiply pointer-events-none"></div>
               </div>
