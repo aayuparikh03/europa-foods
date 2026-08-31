@@ -15,7 +15,7 @@ export default function HomeClient() {
         <div className="relative z-20 w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-stark-white">
           <div className="max-w-3xl">
             <div className="inline-block px-4 py-1 mb-6 bg-champagne-gold/10 border border-champagne-gold/30 rounded font-label-caps text-label-caps text-champagne-gold tracking-widest uppercase">
-              TRUSTED BY BUYERS ACROSS 15+ COUNTRIES
+              Expanding premium Indian foods across 15+ global countries 
             </div>
             <h1 className="font-display-lg-mobile text-[32px] sm:text-[40px] md:text-display-lg mb-6 text-stark-white leading-tight">
               Premium Dehydrated Foods &amp; Spices - Sourced From Nature, Delivered to the World
