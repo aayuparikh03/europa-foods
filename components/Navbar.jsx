@@ -50,20 +50,17 @@ export default function Navbar({ variant = "light" }) {
           <div className="font-headline-md text-headline-md font-serif tracking-wide font-bold">
             <Link
               href="/"
-              className={`flex items-center gap-3 ${isDark
-                ? "text-stark-white"
-                : "text-on-surface dark:text-on-primary-container"
-                }`}
+              className="flex items-center gap-3"
             >
               <img
                 src="/images/Europa Logo Without bg.png"
                 alt="Europa Food Ingredients Logo"
-                className="h-11 md:h-12 w-auto object-contain"
+                className="h-12 md:h-14 w-auto object-contain"
               />
               <img
                 src="/images/Europa Foods Text Logo.png"
                 alt="Europa Food Ingredients"
-                className={`h-9 md:h-10 w-auto object-contain ${isDark ? "brightness-0 invert" : ""}`}
+                className={`h-8.5 md:h-10 w-auto object-contain ${isDark ? "brightness-0 invert" : ""}`}
               />
             </Link>
           </div>

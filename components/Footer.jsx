@@ -9,12 +9,12 @@ export default function Footer() {
             <img
               src="/images/Europa Logo Without bg.png"
               alt="Europa Food Ingredients Logo"
-              className="h-10 w-auto object-contain brightness-0 invert"
+              className="h-12 w-auto object-contain brightness-0 invert"
             />
             <img
               src="/images/Europa Foods Text Logo.png"
               alt="Europa Food Ingredients"
-              className="h-8 w-auto object-contain brightness-0 invert"
+              className="h-8.5 w-auto object-contain brightness-0 invert"
             />
           </div>
           <p className="text-on-tertiary-container mb-6">

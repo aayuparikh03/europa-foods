@@ -57,16 +57,16 @@ export default function MobileNav({ open, onClose }) {
       >
         {/* Header */}
         <div className="flex items-center justify-between px-6 py-5 border-b border-stark-white/10">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2.5">
             <img
               src="/images/Europa Logo Without bg.png"
               alt="Europa Food Ingredients Logo"
-              className="h-8 w-auto object-contain brightness-0 invert"
+              className="h-9 w-auto object-contain brightness-0 invert"
             />
             <img
               src="/images/Europa Foods Text Logo.png"
               alt="Europa Food Ingredients"
-              className="h-6 w-auto object-contain brightness-0 invert"
+              className="h-7 w-auto object-contain brightness-0 invert"
             />
           </div>
           <button
